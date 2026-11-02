@@ -815,14 +815,14 @@ const Q = window.QUOTES || {};
 document.querySelectorAll('.ask[data-ask]').forEach(box => {
   const CFG = window.ASK_CONFIG || {}; const compact = box.dataset.ask === 'compact'; const history = [];
   const PDF_TO_PAGE = p => p<=4 ? 'about.html' : p<=8 ? 'findings.html' : p<=10 ? 'programme.html' : p<=14 ? 'lipids.html' : p<=16 ? 'dates.html' : p===17 ? 'developments.html' : p<=21 ? 'cardiomyopathies.html' : p<=23 ? 'method.html' : 'trials.html';
-  const ta = h('textarea',{id:'ask-q-'+(compact?'c':'f'), rows:'1', placeholder:'Put a question to the record', 'aria-label':'Your question'});
-  const btn = h('button',{class:'go', type:'submit', html:'Ask the report <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11M9 4l4 4-4 4"/></svg>'});
+  const ta = h('textarea',{id:'ask-q-'+(compact?'c':'f'), rows:'1', placeholder:'Ask a question about the report', 'aria-label':'Your question'});
+  const btn = h('button',{class:'go', type:'submit', html:'Ask <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8h11M9 4l4 4-4 4"/></svg>'});
   const form = h('form',{}, ta, btn);
-  const sugg = h('div',{class:'sugg'}, h('h4',{}, 'Questions readers have put to this report'));
+  const sugg = h('div',{class:'sugg'}, h('h4',{}, 'Suggested questions'));
   const ol = h('ol',{}); ['What did the panel say about monitoring with longer dosing intervals?','Which readouts are expected in 2027?','Which product is CE-marked?','Who gave the keynote, and in what capacity?','How many patients were dosed in CALLISTO-HCM?','What did the one patient who spoke say about his treatment?'].slice(0, compact?4:6).forEach(q => ol.append(h('li',{}, h('button',{type:'button', onclick:()=>{ ta.value=q; submit(); }}, q)))); sugg.append(ol);
-  const status = h('div',{class:'ask-status'+(CFG.endpoint?' live':'')}, CFG.endpoint ? 'Connected to the answering service.' : 'The answering service is not yet connected. Until it is, a question returns the passages of the report that bear on it, with their pages.');
+  const status = h('div',{class:'ask-status'+(CFG.endpoint?' live':'')}, CFG.endpoint ? 'Connected to the answering service.' : 'The answering service is not yet connected. Until it is, a question returns the passages of the report that relate to it, with their pages.');
   const thread = h('div',{class:'thread'});
-  box.append(h('div',{class:'lede'}, compact ? 'Enquiries' : 'Enquiries to the record of the meeting'), form, sugg, status, thread);
+  if (compact) box.append(h('div',{class:'lede'}, 'Ask the report')); box.append(form, sugg, status, thread);
   ta.addEventListener('input', () => { ta.style.height = 'auto'; ta.style.height = ta.scrollHeight + 'px'; });
   function terms(q){ const stop = new Set(['what','which','who','when','where','how','did','does','the','and','for','with','about','that','this','were','was','are','there','their','they','from','into','have','has','had','say','said','many','much','any','report','meeting']); return q.toLowerCase().replace(/[^a-z0-9\s-]/g,' ').split(/\s+/).filter(w => w.length>2 && !stop.has(w)); }
   function localMatches(q){ const ts = terms(q); if (!ts.length) return []; return INDEX.map(e => { const low = e.text.toLowerCase(); const score = ts.reduce((s,t) => s + (low.includes(t)?1:0), 0) + ts.reduce((s,t) => s + (e.where.toLowerCase().includes(t)?1:0), 0); return {e, score}; }).filter(x => x.score>0).sort((a,b) => b.score-a.score).slice(0, compact?3:6); }
@@ -865,7 +865,7 @@ if ($('#home-lead')){
     ['developments.html','Thematic analysis','Developments since the meeting','Results and regulatory positions announced after Lisbon that bear on what was said.','dna-vials'],
     ['cardiomyopathies.html','Record of sessions', D.cardio.chapter_title,'Gene therapies, a transthyretin silencer and an oral drug, and a patient treated three years ago.','heart-model'],
     ['trials.html','Appendix','Trials referred to at the meeting','The studies speakers named, matched to a trial registry, with phase and status.','lab-robot'],
-    ['ask.html','Ask','Ask the report','Put a question to the report in plain words and get back the passages, and pages, it rests on.','vitals-monitor'],
+    ['ask.html','Ask','Ask the report','Ask a question in plain words and get an answer with the passages and pages it comes from.','vitals-monitor'],
     ['about.html','About','About this report','What the report covers, how its statements are to be read, and the photographs on this site.','stethoscope'],
   ];
   CARDS.forEach(([href,k,title,text,photo]) => { const p = PHOTOS[photo]||{}; $('#home-cards').append(h('a',{class:'card', href}, h('div',{class:'ph'}, h('img',{src:p.src, alt:p.alt||'', loading:'lazy'})), h('div',{class:'cb'}, h('div',{class:'k'}, k), h('h3',{}, title), h('p',{}, text), h('div',{class:'go'}, 'Open →')))); });
@@ -1215,7 +1215,7 @@ const SITE = [
   { page:'index.html', sel:'#home-quotes', title:'A voice from every session', body:[
       'Each session has a short slider of speaker quotations, so the site reads like the meeting rather than a summary of it.'] },
   { page:'index.html', sel:'.ask[data-ask]', title:'Ask the report', body:[
-      'Readers can put a question to the record. Answers are drawn only from the report’s own text, and each comes with its page reference.',
+      'Readers can ask the report a question in plain words. Answers come only from the report’s own text, and each comes with its page reference.',
       'In production this connects to an AI model that can answer only from the verified record.'] },
   { page:'findings.html', sel:'#findings-filters', title:'Twelve principal findings', body:[
       'The headline findings, filterable by session, with the speaker and page on every one.',

@@ -29,7 +29,7 @@ const SITE = [
   { page:'index.html', sel:'#home-quotes', title:'A voice from every session', body:[
       'Each session has a short slider of speaker quotations, so the site reads like the meeting rather than a summary of it.'] },
   { page:'index.html', sel:'.ask[data-ask]', title:'Ask the report', body:[
-      'Readers can put a question to the record. Answers are drawn only from the report’s own text, and each comes with its page reference.',
+      'Readers can ask the report a question in plain words. Answers come only from the report’s own text, and each comes with its page reference.',
       'In production this connects to an AI model that can answer only from the verified record.'] },
   { page:'findings.html', sel:'#findings-filters', title:'Twelve principal findings', body:[
       'The headline findings, filterable by session, with the speaker and page on every one.',
