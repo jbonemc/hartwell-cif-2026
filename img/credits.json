@@ -1,0 +1,79 @@
+{
+ "operating-theatre": {
+  "file": "photo-1579684453423-f84349ef60b0",
+  "photographer": "National Cancer Institute",
+  "profile": "https://unsplash.com/@nci",
+  "page": "https://unsplash.com/photos/KrsoedfRAf4",
+  "alt": "Surgeons performing surgery in an operating room"
+ },
+ "audience-screen": {
+  "file": "photo-1627931539006-d5c4677e05ea",
+  "photographer": "Kevin Gonzalez",
+  "profile": "https://unsplash.com/@typegon",
+  "page": "https://unsplash.com/photos/-NXNaE9lu6w",
+  "alt": "An audience watching a speaker on a bright screen in a dark room"
+ },
+ "blood-vials": {
+  "file": "photo-1579154341184-22069e4614d2",
+  "photographer": "National Cancer Institute",
+  "profile": "https://unsplash.com/@nci",
+  "page": "https://unsplash.com/photos/egT3xtDu9DQ",
+  "alt": "Vials of blood taken in the course of patient care"
+ },
+ "ecg-monitor": {
+  "file": "photo-1572996489084-bd293caab387",
+  "photographer": "Tim Cooper",
+  "profile": "https://unsplash.com/@tcooper86",
+  "page": "https://unsplash.com/photos/BvS7q4yFQt4",
+  "alt": "An ECG, saturation and blood pressure monitor"
+ },
+ "dna-vials": {
+  "file": "photo-1578496479273-878c39a9d5e0",
+  "photographer": "National Cancer Institute",
+  "profile": "https://unsplash.com/@nci",
+  "page": "https://unsplash.com/photos/HMQtSQZHPZU",
+  "alt": "Vials containing DNA samples in a genomics laboratory"
+ },
+ "lab-robot": {
+  "file": "photo-1578496479530-799fd6d0803a",
+  "photographer": "National Cancer Institute",
+  "profile": "https://unsplash.com/@nci",
+  "page": "https://unsplash.com/photos/to8o0bqOA6Q",
+  "alt": "An automated liquid-handling robot in a genomics laboratory"
+ },
+ "stethoscope": {
+  "file": "photo-1505751172876-fa1923c5c528",
+  "photographer": "Hush Naidoo Jade Photography",
+  "profile": "https://unsplash.com/@hush52",
+  "page": "https://unsplash.com/photos/yo01Z-9HQAw",
+  "alt": "A stethoscope"
+ },
+ "vitals-monitor": {
+  "file": "photo-1721114989769-0423619f03d2",
+  "photographer": "Samuel Ramos",
+  "profile": "https://unsplash.com/@idgeek",
+  "page": "https://unsplash.com/photos/0V7aC2SEm5U",
+  "alt": "A hospital vital-signs monitor"
+ },
+ "heart-drawing": {
+  "file": "photo-1715111965679-c6970aa00def",
+  "photographer": "Europeana (H.G. Wetselaar, Leiden University Libraries, public domain)",
+  "profile": "https://unsplash.com/@europeana",
+  "page": "https://unsplash.com/photos/VIRzqxcrWvc",
+  "alt": "A drawing of the inside of a human heart"
+ },
+ "heart-model": {
+  "file": "photo-1460672985063-6764ac8b9c74",
+  "photographer": "jesse orrico",
+  "profile": "https://unsplash.com/@jessedo81",
+  "page": "https://unsplash.com/photos/Us3AQvyOP-o",
+  "alt": "An anatomical heart model with blue and red vessels on a metal stand"
+ },
+ "gothenburg-port": {
+  "file": "photo-1514912912594-2559e594d990",
+  "photographer": "Jonas Jacobsson",
+  "profile": "https://unsplash.com/@jonasjacobsson",
+  "page": "https://unsplash.com/photos/o8C5D_wY77s",
+  "alt": "Cranes and buildings by the water in Gothenburg"
+ }
+}

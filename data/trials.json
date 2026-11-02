@@ -1,0 +1,359 @@
+{
+  "section": "Trials referred to at the meeting",
+  "source_pages": [
+    24,
+    25
+  ],
+  "intro_verbatim": "The studies named by speakers, matched to their entries on a trial registry. A study is listed only where the sponsor or product on the registry matches the company that named it. Phase and status are as recorded on the registry on 2 November 2026 and may differ from the description given at the meeting; where they differ materially, the relevant chapter carries a footnote. The registry identifiers in this sample are illustrative.",
+  "registry_date": "2 November 2026",
+  "table_columns_verbatim": [
+    "Study",
+    "Sponsor on the registry",
+    "Registry identifier",
+    "Phase",
+    "Status"
+  ],
+  "trials": [
+    {
+      "study": "FALCONER",
+      "sponsor": "Arden Therapeutics",
+      "registry_identifier": "TR-2026-0501",
+      "phase": "Phase 3",
+      "status": "Not yet recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "WINTERGREEN",
+      "sponsor": "Arden Therapeutics",
+      "registry_identifier": "TR-2024-0452",
+      "phase": "Phase 2",
+      "status": "Active, not recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "Calderon natural history",
+      "sponsor": "Calderon Therapeutics",
+      "registry_identifier": "TR-2022-0033",
+      "phase": "Not applicable",
+      "status": "Completed",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "CALLISTO-HCM",
+      "sponsor": "Calderon Therapeutics",
+      "registry_identifier": "TR-2024-0077",
+      "phase": "Phase 1/2",
+      "status": "Active, not recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "Castlebay CBY-01 phase 1/2",
+      "sponsor": "Castlebay Therapeutics",
+      "registry_identifier": "TR-2024-0251",
+      "phase": "Phase 1/2",
+      "status": "Active, not recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "CorvaneOne first-in-human",
+      "sponsor": "Corvane Systems",
+      "registry_identifier": "TR-2025-0260",
+      "phase": "Not applicable",
+      "status": "Completed",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "EBW-100 phase 1/2",
+      "sponsor": "Ebbwater Genetics",
+      "registry_identifier": "TR-2023-0344",
+      "phase": "Phase 1/2",
+      "status": "Active, not recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "LODESTAR-2",
+      "sponsor": "Fenwick Bio",
+      "registry_identifier": "TR-2024-0301",
+      "phase": "Phase 3",
+      "status": "Active, not recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "OSPREY-ACS",
+      "sponsor": "Halden Pharmaceuticals",
+      "registry_identifier": "TR-2024-0199",
+      "phase": "Phase 3",
+      "status": "Active, not recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "OSPREY-AF",
+      "sponsor": "Halden Pharmaceuticals",
+      "registry_identifier": "TR-2023-0120",
+      "phase": "Phase 3",
+      "status": "Completed",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "Harrowgate Fabry pivotal",
+      "sponsor": "Harrowgate Therapeutics",
+      "registry_identifier": "TR-2022-0140",
+      "phase": "Phase 2/3",
+      "status": "Active, not recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "ORCHARD-1",
+      "sponsor": "Kessler Pharma",
+      "registry_identifier": "TR-2023-0290",
+      "phase": "Phase 2",
+      "status": "Completed",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "ORCHARD-HCM",
+      "sponsor": "Kessler Pharma",
+      "registry_identifier": "TR-2024-0166",
+      "phase": "Phase 3",
+      "status": "Active, not recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "Kestrel PF-1 first-in-human",
+      "sponsor": "Kestrel Electro",
+      "registry_identifier": "TR-2025-0102",
+      "phase": "Not applicable",
+      "status": "Completed",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "Lumen Therapy European trial",
+      "sponsor": "Lumen Therapy",
+      "registry_identifier": "TR-2026-0330",
+      "phase": "Not applicable",
+      "status": "Recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "GRANITE-1",
+      "sponsor": "Marlowe Pharma",
+      "registry_identifier": "TR-2026-0209",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "GRANITE-2",
+      "sponsor": "Marlowe Pharma",
+      "registry_identifier": "TR-2026-0210",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "GRANITE-3",
+      "sponsor": "Marlowe Pharma",
+      "registry_identifier": "TR-2026-0211",
+      "phase": "Phase 3",
+      "status": "Not yet recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "LANTANA",
+      "sponsor": "Marlowe Pharma",
+      "registry_identifier": "TR-2024-0388",
+      "phase": "Phase 2b",
+      "status": "Completed",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "OAKMOOR",
+      "sponsor": "Marlowe Pharma",
+      "registry_identifier": "TR-2026-0147",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "SORREL",
+      "sponsor": "Marlowe Pharma",
+      "registry_identifier": "TR-2026-0318",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "THISTLE",
+      "sponsor": "Marlowe Pharma",
+      "registry_identifier": "TR-2026-0319",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "PulsePoint registry",
+      "sponsor": "Northgate Sensing",
+      "registry_identifier": "TR-2025-0187",
+      "phase": "Not applicable",
+      "status": "Recruiting",
+      "source_page": 24,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "STRIDE-HF",
+      "sponsor": "Northwind Bioelectric",
+      "registry_identifier": "TR-2022-0219",
+      "phase": "Not applicable",
+      "status": "Completed",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "STRIDE-HF2",
+      "sponsor": "Northwind Bioelectric",
+      "registry_identifier": "TR-2026-0088",
+      "phase": "Not applicable",
+      "status": "Recruiting",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "LANTERNWAY",
+      "sponsor": "Oriel Cardiogenetics",
+      "registry_identifier": "TR-2025-0058",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "DUET",
+      "sponsor": "Orrinvale Medical",
+      "registry_identifier": "TR-2023-0405",
+      "phase": "Not applicable",
+      "status": "Completed",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "HARBOURLIGHT",
+      "sponsor": "Ravensworth Medical",
+      "registry_identifier": "TR-2023-0096",
+      "phase": "Not applicable",
+      "status": "Completed",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "HARBOURLIGHT-US",
+      "sponsor": "Ravensworth Medical",
+      "registry_identifier": "TR-2025-0233",
+      "phase": "Not applicable",
+      "status": "Active, not recruiting",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "KINGFISHER",
+      "sponsor": "Serrat Biosciences",
+      "registry_identifier": "TR-2026-0412",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "TIDEWATER",
+      "sponsor": "Tessaro Cardio",
+      "registry_identifier": "TR-2023-0071",
+      "phase": "Not applicable",
+      "status": "Active, not recruiting",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "BIRCHWOOD",
+      "sponsor": "Vantrel Bio",
+      "registry_identifier": "TR-2024-0113",
+      "phase": "Phase 2",
+      "status": "Completed",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    },
+    {
+      "study": "SILVERBIRCH-1",
+      "sponsor": "Vantrel Bio",
+      "registry_identifier": "TR-2025-0271",
+      "phase": "Phase 3",
+      "status": "Active, not recruiting",
+      "source_page": 25,
+      "source": "verification against a trial registry (as recorded on the registry, per the section intro)"
+    }
+  ],
+  "trial_count": 33,
+  "trial_count_by_page": {
+    "24": 23,
+    "25": 10
+  },
+  "not_matched_heading_verbatim": "Named at the meeting and not matched",
+  "not_matched": [
+    {
+      "text_verbatim": "The registry carries the two further Tiravesta phase 3 studies without their names, so they are not matched by name.",
+      "source_page": 25,
+      "source": "verification against a trial registry",
+      "lead_phrase": "ROWAN and BRACKEN (Marlowe Pharma).",
+      "notes": "The source text carries no formatting; 'lead_phrase' is the bullet's opening sentence up to and including the first full stop, split from the rest by sentence structure only. Full bullet text = lead_phrase + ' ' + text_verbatim."
+    },
+    {
+      "text_verbatim": "No clinical study is registered; all three companies presented preclinical work only.",
+      "source_page": 25,
+      "source": "verification against a trial registry",
+      "lead_phrase": "Tollan Therapeutics, Mireille Medical and Saltmarsh Devices.",
+      "notes": "The source text carries no formatting; 'lead_phrase' is the bullet's opening sentence up to and including the first full stop, split from the rest by sentence structure only. Full bullet text = lead_phrase + ' ' + text_verbatim."
+    },
+    {
+      "text_verbatim": "The study described by Yusuf Demir as due to start had not been registered on 2 November 2026.",
+      "source_page": 25,
+      "source": "verification against a trial registry; the study itself was SPOKEN of by Yusuf Demir at the meeting",
+      "lead_phrase": "Castlebay Therapeutics phase 3.",
+      "notes": "The source text carries no formatting; 'lead_phrase' is the bullet's opening sentence up to and including the first full stop, split from the rest by sentence structure only. Full bullet text = lead_phrase + ' ' + text_verbatim."
+    },
+    {
+      "text_verbatim": "Not found on a public register.",
+      "source_page": 25,
+      "source": "verification against a public register",
+      "lead_phrase": "Lumen Therapy pilot study.",
+      "notes": "The source text carries no formatting; 'lead_phrase' is the bullet's opening sentence up to and including the first full stop, split from the rest by sentence structure only. Full bullet text = lead_phrase + ' ' + text_verbatim."
+    }
+  ],
+  "footnotes": [],
+  "notes": [
+    "Row count: the task text said 34 rows; the page text contains 33 table rows (23 on page 24, 10 on page 25). The file records what the pages contain.",
+    "The 'lead_phrase' values in not_matched are the lead phrase of each bullet up to and including the first full stop; neither the plain-text extraction nor the layout text carries any bold or other formatting, so no formatting claim is made and the lead/remainder split is inferred from sentence structure only.",
+    "No chapter-local footnotes appear on pages 24-25; the footnotes array is therefore empty.",
+    "Per the intro, Phase and Status are as recorded on the registry (verification), not as described at the meeting; the intro states that material differences are footnoted in the relevant chapter, not here.",
+    "Page footer on both pages: 'Sample report. All organisations, people, products and data are fictional.'"
+  ]
+}

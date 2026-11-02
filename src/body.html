@@ -1,0 +1,204 @@
+<div class="shell">
+<nav class="rail" aria-label="Contents">
+  <a class="brand" href="#overview">Hartwell Society<small>Cardiovascular Innovation Forum 2026</small></a>
+  <div class="rule"></div>
+  <ul class="toc" id="toc"></ul>
+  <div class="tools">
+    <a class="btn btn-red" id="dl-rail" href="report.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v8m0 0l3-3m-3 3L5 7M3 12v1.5h10V12"/></svg>Download the report (PDF)</a>
+    <button class="btn btn-ghost" id="search-open"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5L14 14"/></svg>Search the report</button>
+    <div class="progress" aria-hidden="true"><i id="progress"></i></div>
+  </div>
+</nav>
+
+<main>
+<div class="topbar">
+  <a class="brand" href="#overview">Hartwell Society</a>
+  <div class="acts">
+    <button class="btn btn-ghost" id="search-open-m" aria-label="Search">Search</button>
+    <button class="btn btn-ghost" id="menu-open" aria-label="Open contents">Contents</button>
+  </div>
+</div>
+<div class="menu" id="menu" aria-label="Contents">
+  <button class="close" id="menu-close">Close</button>
+  <a class="brand" href="#overview" style="color:inherit;text-decoration:none;font-weight:700;font-size:1.1rem">Hartwell Society</a>
+  <div class="rule" style="width:56px;height:4px;background:var(--red);margin:14px 0 16px"></div>
+  <ul class="toc" id="toc-m"></ul>
+  <div class="tools" style="margin-top:18px"><a class="btn btn-red" id="dl-menu" href="report.pdf" target="_blank" rel="noopener">Download the report (PDF)</a></div>
+</div>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="overview" class="chapter band hero wrap" data-title="Overview" data-page="1">
+  <div class="inner">
+    <div class="top"><span class="society" id="h-society"></span><span class="badge" id="h-badge"></span></div>
+    <div class="rule"></div>
+    <p class="when" id="h-when"></p>
+    <h1 id="h-title"></h1>
+    <p class="sub" id="h-sub"></p>
+    <div class="cta">
+      <a class="btn btn-red" id="dl-hero" href="report.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v8m0 0l3-3m-3 3L5 7M3 12v1.5h10V12"/></svg>Download the full report (PDF)</a>
+      <a class="btn btn-ghost" href="#findings">Read the twelve findings</a>
+    </div>
+    <div class="meta" id="h-meta"></div>
+  </div>
+</section>
+
+<section id="about" class="chapter wrap" data-title="About this report" data-page="3">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">About this report <span class="pg" id="about-pg"></span></div><h2>About this report</h2><div class="rule"></div><p class="lead" id="about-lead"></p></div>
+    <div class="sample-note" id="sample-note"></div>
+    <div class="grid-2" style="margin-top:28px" id="about-sections"></div>
+    <h3 style="margin-top:40px;font-size:1.1rem">How to read the evidence on this site</h3>
+    <p style="color:var(--fg-2);font-size:.95rem;max-width:68ch;margin-top:8px">The report distinguishes throughout between what was said aloud, what appeared on a speaker's slide, and what a public source showed on review. Wherever the report states which of these a figure rests on, the site marks it with one of these labels. Where the report does not say, no label is shown.</p>
+    <div class="legend" id="legend"></div>
+    <div class="tiles" id="tiles"></div>
+    <p class="hint" style="padding:8px 0 0">These figures are the ones the report's own method appendix gives for this sample.</p>
+  </div>
+</section>
+
+<!-- ============ FINDINGS ============ -->
+<section id="findings" class="chapter wrap" data-title="Executive summary" data-page="5">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">Executive summary <span class="pg" id="findings-pg"></span></div><h2>Twelve principal findings</h2><div class="rule"></div><p class="lead" id="findings-lead"></p></div>
+    <div class="prose" style="margin-bottom:30px"><p id="findings-body"></p></div>
+    <div class="filters" id="findings-filters"><span class="lbl">Show</span></div>
+    <div class="findings" id="findings-list"></div>
+  </div>
+</section>
+
+<!-- ============ PROGRAMME ============ -->
+<section id="programme" class="chapter wrap" data-title="Programme and contributors" data-page="9">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">Programme and contributors <span class="pg" id="programme-pg"></span></div><h2>Programme and contributors</h2><div class="rule"></div><p class="lead" id="programme-lead"></p></div>
+    <div class="grid-2" style="align-items:start">
+      <div>
+        <h3 style="font-size:1rem;margin-bottom:14px">The afternoon, session by session</h3>
+        <div class="timeline" id="timeline"></div>
+        <ul class="fn-list" id="programme-fns"></ul>
+      </div>
+      <div>
+        <h3 style="font-size:1rem;margin-bottom:10px">Organising committee</h3>
+        <div class="people" id="committee" style="grid-template-columns:1fr"></div>
+      </div>
+    </div>
+    <div class="people-tools">
+      <h3 style="font-size:1rem;margin-right:8px">Everyone named on the programme</h3>
+      <label class="search"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5L14 14"/></svg><input id="people-q" type="search" placeholder="Filter by name or organisation" aria-label="Filter people"></label>
+      <span class="count" id="people-count"></span>
+    </div>
+    <div class="people" id="people"></div>
+  </div>
+</section>
+
+<!-- ============ PART ONE DIVIDER ============ -->
+<section class="band wrap" style="padding-block:56px" aria-label="Part One">
+  <div class="inner"><div style="width:180px;height:6px;background:var(--red);margin-bottom:22px"></div><h2 style="font-size:clamp(1.7rem,3vw,2.4rem)">Part One: Thematic analysis</h2><p class="lead" style="color:var(--band-muted);margin-top:12px" id="part1-lead"></p></div>
+</section>
+
+<!-- ============ LIPIDS ============ -->
+<section id="lipids" class="chapter wrap" data-title="Lipid-lowering and atherosclerosis" data-page="12" data-part="Part One: Thematic analysis">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">Thematic analysis <span class="pg" id="lipids-pg"></span></div><h2 id="lipids-title"></h2><div class="rule"></div><p class="lead" id="lipids-lead"></p></div>
+    <div class="chart" id="lipid-chart"></div>
+    <div class="note" id="lipid-keypoint" style="margin:22px 0 34px;max-width:none"></div>
+    <div class="prose" id="lipid-prose"></div>
+    <h3 style="font-size:1rem;margin:40px 0 6px">Every figure in this chapter, and what it rests on</h3>
+    <p style="font-size:.86rem;color:var(--muted);margin-bottom:12px;max-width:68ch">Each card gives a figure as the report prints it, with the basis where the report states one. Where a footnote records a different figure from a slide or a public source, the card says so.</p>
+    <div class="filters" id="lipid-fig-filters"><span class="lbl">Company</span></div>
+    <div class="figs" id="lipid-figs"></div>
+    <h3 style="font-size:1rem;margin:40px 0 12px">Programmes referenced</h3>
+    <div class="tablewrap"><table id="lipid-table"></table></div>
+    <h3 style="font-size:1rem;margin:34px 0 8px">Matters not addressed</h3>
+    <p style="color:var(--fg-2);font-size:.95rem;max-width:68ch" id="lipid-not"></p>
+    <ul class="fn-list" id="lipid-fns"></ul>
+  </div>
+</section>
+
+<!-- ============ DATES ============ -->
+<section id="dates" class="chapter wrap" data-title="Dates to watch" data-page="15" data-part="Part One: Thematic analysis">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">Thematic analysis <span class="pg" id="dates-pg"></span></div><h2>Dates to watch</h2><div class="rule"></div><p class="lead" id="dates-lead"></p></div>
+    <div class="filters" id="dates-filters"><span class="lbl">Basis</span></div>
+    <div class="filters" id="dates-company"><span class="lbl">Company</span></div>
+    <div class="dates" id="dates-list"></div>
+    <ul class="fn-list" id="dates-fns"></ul>
+  </div>
+</section>
+
+<!-- ============ DEVELOPMENTS ============ -->
+<section id="developments" class="chapter wrap" data-title="Developments since the meeting" data-page="17" data-part="Part One: Thematic analysis">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">Thematic analysis <span class="pg" id="developments-pg"></span></div><h2>Developments since the meeting</h2><div class="rule"></div><p class="lead" id="developments-lead"></p></div>
+    <div id="developments-list" style="display:flex;flex-direction:column;gap:28px"></div>
+  </div>
+</section>
+
+<!-- ============ PART TWO DIVIDER ============ -->
+<section class="band wrap" style="padding-block:56px" aria-label="Part Two">
+  <div class="inner"><div style="width:180px;height:6px;background:var(--red);margin-bottom:22px"></div><h2 style="font-size:clamp(1.7rem,3vw,2.4rem)">Part Two: Record of sessions</h2><p class="lead" style="color:var(--band-muted);margin-top:12px" id="part2-lead"></p></div>
+</section>
+
+<!-- ============ CARDIO ============ -->
+<section id="cardio" class="chapter wrap" data-title="Inherited and rare cardiomyopathies" data-page="19" data-part="Part Two: Record of sessions">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">Record of sessions, 14:28 <span class="pg" id="cardio-pg"></span></div><h2 id="cardio-title"></h2><div class="rule"></div><p class="lead" id="cardio-lead"></p></div>
+    <div class="chart" id="cardio-chart" style="margin-bottom:30px"></div>
+    <div class="pres" id="cardio-pres"></div>
+    <h3 style="font-size:1.05rem;margin:36px 0 10px">Discussion</h3>
+    <div class="prose" id="cardio-disc"></div>
+    <h3 style="font-size:1.05rem;margin:36px 0 14px" id="cardio-guest-h"></h3>
+    <div class="grid-2" style="align-items:start"><blockquote class="quote" id="cardio-quote" style="margin:0"></blockquote><div class="prose" id="cardio-guest"></div></div>
+    <ul class="fn-list" id="cardio-fns"></ul>
+  </div>
+</section>
+
+<!-- ============ DISCREPANCIES ============ -->
+<section id="discrepancies" class="chapter wrap" data-title="Said versus shown" data-page="3" data-part="Across the report">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">Across the report <span class="pg">3, 5–21</span></div><h2>Said versus shown: every footnote in the sample</h2><div class="rule"></div><p class="lead" id="disc-lead"></p></div>
+    <div class="filters" id="disc-filters"><span class="lbl">Chapter</span></div>
+    <div class="filters" id="disc-kind"><span class="lbl">Footnote mentions</span></div>
+    <div class="disc" id="disc-list"></div>
+  </div>
+</section>
+
+<!-- ============ METHOD ============ -->
+<section id="method" class="chapter wrap" data-title="Method and verification" data-page="22" data-part="Part Two: Record of sessions">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">Appendix <span class="pg" id="method-pg"></span></div><h2>Method and verification</h2><div class="rule"></div><p class="lead" id="method-lead"></p></div>
+    <div class="pipe" id="pipe" style="margin:30px 0 36px"></div>
+    <div class="chart" id="verif-chart"></div>
+    <div class="grid-2" style="margin-top:34px;align-items:start;gap:34px"><div class="prose" id="method-prose-a"></div><div class="prose" id="method-prose-b"></div></div>
+  </div>
+</section>
+
+<!-- ============ TRIALS ============ -->
+<section id="trials" class="chapter wrap" data-title="Trials referred to at the meeting" data-page="24" data-part="Part Two: Record of sessions">
+  <div class="inner">
+    <div class="chapter-head"><div class="eyebrow">Appendix <span class="pg" id="trials-pg"></span></div><h2>Trials referred to at the meeting</h2><div class="rule"></div><p class="lead" id="trials-lead"></p></div>
+    <div class="people-tools" style="margin-top:0">
+      <label class="search"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5L14 14"/></svg><input id="trials-q" type="search" placeholder="Filter by study, sponsor or identifier" aria-label="Filter trials"></label>
+      <span class="count" id="trials-count"></span>
+    </div>
+    <div class="filters" id="trials-status"><span class="lbl">Status</span></div>
+    <div class="tablewrap"><table id="trials-table"></table></div>
+    <h3 style="font-size:1rem;margin:34px 0 10px">Named at the meeting and not matched</h3>
+    <div class="grid-2" id="trials-unmatched"></div>
+  </div>
+</section>
+
+<footer class="band wrap">
+  <div class="inner">
+    <div class="cols" id="footer-cols"></div>
+    <p style="font-size:.78rem;color:var(--band-muted);margin-top:28px;border-top:1px solid var(--band-line);padding-top:16px" id="footer-disc"></p>
+  </div>
+</footer>
+</main>
+</div>
+
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="Search the report">
+  <div class="dialog">
+    <label class="search"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5L14 14"/></svg><input id="q" type="search" placeholder="Search a name, company, trial, figure or phrase" aria-label="Search"></label>
+    <div class="results" id="results"></div>
+    <div class="hint">Searches every passage, table row and footnote on this site. Press Escape to close.</div>
+  </div>
+</div>

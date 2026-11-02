@@ -1,0 +1,106 @@
+{
+ "report": {
+  "society": "Hartwell Society",
+  "society_full_name": "The Hartwell Society for Cardiovascular Medicine",
+  "title": "Cardiovascular Innovation Forum 2026",
+  "subtitle": "Report of proceedings and analysis",
+  "event_date_line": "Wednesday 14 October 2026, Lisbon Congress Centre, Lisbon",
+  "event_date_iso": "2026-10-14",
+  "venue": "Lisbon Congress Centre",
+  "city": "Lisbon",
+  "publication_month": "November 2026",
+  "sample_badge_text": "Illustrative sample",
+  "footer_disclaimer": "Sample report. All organisations, people, products and data are fictional.",
+  "source_page": 1,
+  "notes": "The cover prints the title over two lines ('Cardiovascular' / 'Innovation Forum 2026'); it is joined with a single space here. The footer disclaimer appears on pages 2, 3 and 4 (not on the cover page 1). 'Hartwell Society' and 'The Hartwell Society for Cardiovascular Medicine' are both printed on page 1; page 3 also refers to the meeting as 'the Hartwell Cardiovascular Innovation Forum 2026'."
+ },
+ "contents": [
+  {
+   "title": "About this report",
+   "page": 3,
+   "part": null,
+   "source_page": 2
+  },
+  {
+   "title": "Executive summary",
+   "page": 5,
+   "part": null,
+   "source_page": 2
+  },
+  {
+   "title": "Programme and contributors",
+   "page": 9,
+   "part": null,
+   "source_page": 2
+  },
+  {
+   "title": "Lipid-lowering and atherosclerosis",
+   "page": 12,
+   "part": "Part One: Thematic analysis",
+   "source_page": 2
+  },
+  {
+   "title": "Dates to watch",
+   "page": 15,
+   "part": "Part One: Thematic analysis",
+   "source_page": 2
+  },
+  {
+   "title": "Developments since the meeting",
+   "page": 17,
+   "part": "Part One: Thematic analysis",
+   "source_page": 2
+  },
+  {
+   "title": "Inherited and rare cardiomyopathies",
+   "page": 19,
+   "part": "Part Two: Record of sessions",
+   "source_page": 2
+  },
+  {
+   "title": "Method and verification",
+   "page": 22,
+   "part": "Part Two: Record of sessions",
+   "source_page": 2
+  },
+  {
+   "title": "Trials referred to at the meeting",
+   "page": 24,
+   "part": "Part Two: Record of sessions",
+   "source_page": 2
+  }
+ ],
+ "about": {
+  "intro_verbatim": "This document is a sample. It demonstrates the format, method and standard of a report of proceedings prepared from the recordings of a scientific meeting. The meeting it describes, the Hartwell Cardiovascular Innovation Forum 2026, is fictional, as are the society, the people, the companies, the products, the trials, the figures and the sources referred to throughout. No statement in this report concerns any real organisation, product or person.",
+  "source_page": 3,
+  "sections": [
+   {
+    "heading": "Purpose and scope",
+    "text_verbatim": "A report of this kind sets out what was presented in each session of a meeting, draws together the subjects that recurred across sessions, and distinguishes throughout between what speakers demonstrated with data and what they asserted. The sample covers ten sessions of a half-day meeting: opening and closing remarks, six sessions of company presentations with panel discussion, a keynote lecture by a regulator and an investor panel. Posters and networking sessions are not covered.",
+    "source_page": 3
+   },
+   {
+    "heading": "How to read this report",
+    "text_verbatim": "The executive summary sets out twelve principal findings. Part One presents eight thematic analyses, each of which follows a single subject across the whole meeting. Part Two is a record of each session in programme order. An assessment of the evidence presented, a calendar of the dates that speakers gave for forthcoming results, and a chapter on developments announced after the meeting follow Part One.",
+    "source_page": 3
+   },
+   {
+    "heading": "Status of the statements in this report",
+    "text_verbatim": "Statements attributed to a company are that company's own account of its products and results, as given by its representative on the day. Their inclusion does not constitute endorsement by the society. Those that could be checked against a public source, such as a trial registry, a regulator's website or a company's own announcement, were checked: where the public source differs from what was said, the text carries a footnote naming the source. Statements for which no public source exists, including unpublished data, forecasts and opinions, rest on the speaker alone. Statements attributed to an individual are that individual's view. The keynote speaker stated that she was giving her personal views.\nResults from animal or laboratory studies are described as preclinical wherever they appear. Where a figure was shown on a slide and was not spoken, the text says so.",
+    "source_page": 3,
+    "notes": "Paragraph break kept as newline only before 'Results from animal or laboratory studies...' (blank line in source layout). 'Where a figure was shown on a slide...' follows on the next line with no blank line; treated as the same paragraph (PDF line wrap). The 'Results...' line is near full width, so the source does not make the paragraphing unambiguous."
+   },
+   {
+    "heading": "Footnotes",
+    "text_verbatim": "Footnotes are used for one purpose: to record a discrepancy. Where a speaker's words differed from the speaker's own slide, where two figures were given for the same thing, where one speaker contradicted another, where a statement was clarified after review of the recording, or where a public source differs from what was said, the main text gives the version treated as primary, which is normally what was said, and the footnote gives the other version.",
+    "source_page": 3
+   },
+   {
+    "heading": "Basis of the report",
+    "text_verbatim": "The report was prepared from the video recordings of the meeting. The method by which the recordings were transcribed, reviewed, analysed and verified, and the checks applied, are described in the appendix.",
+    "source_page": 4
+   }
+  ],
+  "notes": "Line breaks within paragraphs in the source text are PDF wrapping and have been joined with single spaces; paragraph breaks within a section are kept as newline characters. Pages 3 and 4 carry the running header 'About this report'. No footnotes appear on pages 1-4."
+ }
+}

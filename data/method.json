@@ -1,0 +1,249 @@
+{
+ "section": "Method and verification",
+ "source_pages": [
+  22,
+  23
+ ],
+ "intro_verbatim": "This appendix describes how a report of this kind is prepared from the recordings of a meeting and the checks that are applied at each stage. The figures given are those of the sample.",
+ "intro_source_page": 22,
+ "sections": [
+  {
+   "heading": "Sources",
+   "source_page": 22,
+   "paragraphs": [
+    {
+     "source_page": 22,
+     "text": "The source material is the video recording of each session, amounting in this sample to approximately four and a half hours. The official programme published by the society is used to confirm the names and affiliations of moderators, speakers and panel members. Public sources consulted to verify statements are identified in the footnotes in which they are used."
+    }
+   ]
+  },
+  {
+   "heading": "Transcription and review",
+   "source_page": 22,
+   "paragraphs": [
+    {
+     "source_page": 22,
+     "text": "The audio of each recording is transcribed by speech recognition software. Each transcript is then compared with the video. Speakers are identified from the captions shown on screen, and the text of every slide is read from the recording so that names, product and trial designations, and figures can be checked against what was displayed. Passages that remain uncertain are extracted as short clips and reviewed by a member of the project team, who listens to each and determines the reading. The outcome of every such review is recorded. In this sample, 67 clips were reviewed."
+    }
+   ]
+  },
+  {
+   "heading": "Extraction of facts",
+   "source_page": 22,
+   "paragraphs": [
+    {
+     "source_page": 22,
+     "text": "Each transcript is divided into its individual talks and discussions, forty in this sample. Each is read separately, in isolation from the others, so that statements made by one speaker cannot be attributed to another. From each, the individual facts are recorded: the products and mechanisms described, the trials and results reported, the dates given, the regulatory and commercial statements made, and the opinions and challenges voiced. Each fact is recorded with the name of the speaker, the time in the recording and the exact words on which it rests. In this sample this produced a base of 1,641 facts."
+    },
+    {
+     "source_page": 22,
+     "text": "Two automated checks are applied. The first confirms that the words quoted in support of each fact appear verbatim in the transcript. The second confirms that every paragraph of every transcript has either given rise to at least one fact or been recorded as containing nothing reportable, so that no part of the meeting is omitted without a decision."
+    }
+   ]
+  },
+  {
+   "heading": "Analysis and drafting",
+   "source_page": 22,
+   "paragraphs": [
+    {
+     "source_page": 22,
+     "text": "The session records and the thematic analyses are written from the base of facts and not from the transcripts. Every statement in the working papers carries a reference to the facts on which it rests. An automated check confirms, for every line, that the facts cited exist, that every figure in the line appears in those facts in the same form, that anything still unresolved is described as such, and that anything read from a slide and not spoken is identified as coming from a slide. A subject is described as having been raised in several sessions only where three or more separate talks support it."
+    },
+    {
+     "source_page": 23,
+     "text": "The chapters of the report are then written from those working papers under the same check. The references to individual facts are retained in the working files and are omitted from the printed text for readability."
+    }
+   ]
+  },
+  {
+   "heading": "Verification against public sources",
+   "source_page": 23,
+   "paragraphs": [
+    {
+     "source_page": 23,
+     "text": "After drafting, every statement that can be tested against a public primary source is tested. The sources used are, in order of preference, the regulator concerned, the trial registry, the company's own announcement or regulatory filing, and the peer-reviewed publication. Each check is limited to sources retrieved on a stated date, and none relies on recollection."
+    },
+    {
+     "source_page": 23,
+     "text": "In this sample, 231 checks were made, covering 361 individual statements. Of these, 108 were confirmed, 74 were confirmed in part, 11 differed from the public source and 38 could not be found in any public source. A further 149 statements were opinions, forecasts or unpublished data, for which no public source can exist. Every difference, and every partial confirmation of importance, is recorded in a footnote that names the source and its date."
+    },
+    {
+     "source_page": 23,
+     "text": "The studies named by speakers are matched to their entries on a trial registry and listed in the following appendix. A study is matched only where the sponsor or product on the registry corresponds to the company that named it."
+    },
+    {
+     "source_page": 23,
+     "text": "Announcements made after the meeting are not blended into the account of what was presented. They are set out separately in the chapter on developments since the meeting."
+    }
+   ]
+  },
+  {
+   "heading": "Limitations",
+   "source_page": 23,
+   "paragraphs": [
+    {
+     "source_page": 23,
+     "text": "The report records what was said and shown at the meeting. Verification against public sources establishes whether a statement agrees with what has been published; it does not establish that the published information is itself correct, and it cannot reach data that a company has not made public."
+    },
+    {
+     "source_page": 23,
+     "text": "A number of spoken figures do not appear on any slide and could not be checked against a second source. They are reported as the speaker's statement. In panel discussions the recording does not always show who is speaking; speakers are identified from the picture and from the manner in which they are addressed, and a small number of brief interjections cannot be attributed."
+    },
+    {
+     "source_page": 23,
+     "text": "Passages that remain unintelligible after review are omitted. The automated checks confirm that the report is faithful to the base of facts. They do not determine which findings are the most important, which is a matter of editorial judgement."
+    }
+   ]
+  }
+ ],
+ "statistics": [
+  {
+   "value": 4.5,
+   "as_printed": "approximately four and a half hours",
+   "label_verbatim_context": "The source material is the video recording of each session, amounting in this sample to approximately four and a half hours.",
+   "what_it_counts": "hours of video recording of the sessions (source material), approximate",
+   "section": "Sources",
+   "source_page": 22,
+   "notes": "Printed in words (\"four and a half\") and qualified as \"approximately\"; 4.5 is the numeric form of the printed words, not a figure printed as a numeral."
+  },
+  {
+   "value": 67,
+   "as_printed": "67 clips",
+   "label_verbatim_context": "In this sample, 67 clips were reviewed.",
+   "what_it_counts": "uncertain passages extracted as short clips and reviewed by a member of the project team",
+   "section": "Transcription and review",
+   "source_page": 22
+  },
+  {
+   "value": 40,
+   "as_printed": "forty",
+   "label_verbatim_context": "Each transcript is divided into its individual talks and discussions, forty in this sample.",
+   "what_it_counts": "individual talks and discussions into which the transcripts are divided",
+   "section": "Extraction of facts",
+   "source_page": 22,
+   "notes": "Printed in words (\"forty\")."
+  },
+  {
+   "value": 1641,
+   "as_printed": "1,641 facts",
+   "label_verbatim_context": "In this sample this produced a base of 1,641 facts.",
+   "what_it_counts": "individual facts recorded from the talks and discussions (the base of facts)",
+   "section": "Extraction of facts",
+   "source_page": 22
+  },
+  {
+   "value": 2,
+   "as_printed": "Two automated checks",
+   "label_verbatim_context": "Two automated checks are applied.",
+   "what_it_counts": "automated checks applied at the extraction-of-facts stage (verbatim-quotation check and paragraph-coverage check)",
+   "section": "Extraction of facts",
+   "source_page": 22,
+   "notes": "Printed in words (\"Two\")."
+  },
+  {
+   "value": 1,
+   "as_printed": "at least one fact",
+   "label_verbatim_context": "The second confirms that every paragraph of every transcript has either given rise to at least one fact or been recorded as containing nothing reportable, so that no part of the meeting is omitted without a decision.",
+   "what_it_counts": "minimum number of facts a paragraph of a transcript must have given rise to, unless it has been recorded as containing nothing reportable (threshold of the second automated check, not a count of the sample)",
+   "section": "Extraction of facts",
+   "source_page": 22,
+   "notes": "Printed in words (\"one\"); a threshold rule, not a sample figure."
+  },
+  {
+   "value": 3,
+   "as_printed": "three or more separate talks",
+   "label_verbatim_context": "A subject is described as having been raised in several sessions only where three or more separate talks support it.",
+   "what_it_counts": "minimum number of separate talks required before a subject is described as raised in several sessions (threshold, not a count of the sample)",
+   "section": "Analysis and drafting",
+   "source_page": 22,
+   "notes": "Printed in words (\"three\"); a threshold rule, not a sample figure."
+  },
+  {
+   "value": 231,
+   "as_printed": "231 checks",
+   "label_verbatim_context": "In this sample, 231 checks were made, covering 361 individual statements.",
+   "what_it_counts": "checks made against public primary sources",
+   "section": "Verification against public sources",
+   "source_page": 23
+  },
+  {
+   "value": 361,
+   "as_printed": "361 individual statements",
+   "label_verbatim_context": "In this sample, 231 checks were made, covering 361 individual statements.",
+   "what_it_counts": "individual statements covered by the 231 checks",
+   "section": "Verification against public sources",
+   "source_page": 23
+  },
+  {
+   "value": 108,
+   "as_printed": "108 were confirmed",
+   "label_verbatim_context": "Of these, 108 were confirmed, 74 were confirmed in part, 11 differed from the public source and 38 could not be found in any public source.",
+   "what_it_counts": "of the 361 statements checked: statements confirmed by the public source",
+   "section": "Verification against public sources",
+   "source_page": 23
+  },
+  {
+   "value": 74,
+   "as_printed": "74 were confirmed in part",
+   "label_verbatim_context": "Of these, 108 were confirmed, 74 were confirmed in part, 11 differed from the public source and 38 could not be found in any public source.",
+   "what_it_counts": "of the 361 statements checked: statements confirmed in part by the public source",
+   "section": "Verification against public sources",
+   "source_page": 23
+  },
+  {
+   "value": 11,
+   "as_printed": "11 differed from the public source",
+   "label_verbatim_context": "Of these, 108 were confirmed, 74 were confirmed in part, 11 differed from the public source and 38 could not be found in any public source.",
+   "what_it_counts": "of the 361 statements checked: statements that differed from the public source",
+   "section": "Verification against public sources",
+   "source_page": 23
+  },
+  {
+   "value": 38,
+   "as_printed": "38 could not be found in any public source",
+   "label_verbatim_context": "Of these, 108 were confirmed, 74 were confirmed in part, 11 differed from the public source and 38 could not be found in any public source.",
+   "what_it_counts": "of the 361 statements checked: statements that could not be found in any public source",
+   "section": "Verification against public sources",
+   "source_page": 23
+  },
+  {
+   "value": 149,
+   "as_printed": "A further 149 statements",
+   "label_verbatim_context": "A further 149 statements were opinions, forecasts or unpublished data, for which no public source can exist.",
+   "what_it_counts": "statements that were opinions, forecasts or unpublished data, for which no public source can exist (additional to the 361 checked)",
+   "section": "Verification against public sources",
+   "source_page": 23,
+   "notes": "The text says \"A further 149\", i.e. in addition to the 361 covered by checks; the text does not state a combined total. 108+74+11+38 = 231, which equals the number of checks rather than the 361 statements; the text does not explain this relationship, so it is recorded as printed without interpretation."
+  }
+ ],
+ "footnotes": [],
+ "footnotes_note": "No footnote markers or footnote text appear on pages 22-23. The text refers to footnotes used elsewhere in the report (\"identified in the footnotes in which they are used\"; \"recorded in a footnote that names the source and its date\").",
+ "spoken_slide_verification_distinctions": [
+  {
+   "source_page": 22,
+   "section": "Transcription and review",
+   "verbatim": "the text of every slide is read from the recording so that names, product and trial designations, and figures can be checked against what was displayed."
+  },
+  {
+   "source_page": 22,
+   "section": "Analysis and drafting",
+   "verbatim": "anything read from a slide and not spoken is identified as coming from a slide."
+  },
+  {
+   "source_page": 23,
+   "section": "Verification against public sources",
+   "verbatim": "After drafting, every statement that can be tested against a public primary source is tested."
+  },
+  {
+   "source_page": 23,
+   "section": "Limitations",
+   "verbatim": "The report records what was said and shown at the meeting. Verification against public sources establishes whether a statement agrees with what has been published; it does not establish that the published information is itself correct, and it cannot reach data that a company has not made public."
+  },
+  {
+   "source_page": 23,
+   "section": "Limitations",
+   "verbatim": "A number of spoken figures do not appear on any slide and could not be checked against a second source. They are reported as the speaker's statement."
+  }
+ ],
+ "notes": "Pages 22-23 are headed \"Method and verification\" and carry the running footer \"Sample report. All organisations, people, products and data are fictional.\" The page-22 heading \"Method and verification\" appears twice (running head and section title). Line breaks in the source text have been joined with single spaces; no other change has been made to wording."
+}

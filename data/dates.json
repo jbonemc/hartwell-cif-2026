@@ -1,0 +1,69 @@
+{
+  "section": "Dates to watch",
+  "source_pages": [15, 16],
+  "intro_verbatim": "The dates in this chapter were stated by speakers, or shown on their slides, at the meeting on 14 October 2026; they are the companies' own expectations and not confirmed events. Where a speaker said \"next year\", the entry is placed in 2027 only where the source itself says so, and otherwise appears under the final heading.",
+  "intro_source_page": 15,
+  "column_headings_verbatim": ["When (as stated)", "Company", "Event", "Basis"],
+  "groups": [
+    {
+      "heading": "Fourth quarter of 2026",
+      "source_page": 15,
+      "entries": [
+        {"when_as_stated": "15 October 2026, the Congress", "company": "Orrinvale Medical", "event": "Presentation of 7-year data from the earlier single-chamber device", "basis": "Spoken", "footnote_numbers": [], "source_page": 15, "notes": "In the layout text the word is split across a line break as \"single-\" / \"chamber\"; the plain-text extraction runs it together as \"singlechamber\". Recorded here as \"single-chamber\"."},
+        {"when_as_stated": "24 October 2026", "company": "Halden Pharmaceuticals", "event": "Full results of OSPREY-AF at the Global Cardiovascular Therapeutics meeting", "basis": "Spoken and slide", "footnote_numbers": [], "source_page": 15},
+        {"when_as_stated": "18 and 19 November 2026", "company": "European medicines regulator", "event": "Data forum", "basis": "Slide", "footnote_numbers": [], "source_page": 15},
+        {"when_as_stated": "December 2026", "company": "Tessaro Cardio", "event": "3-year data from TIDEWATER", "basis": "Slide", "footnote_numbers": [], "source_page": 15},
+        {"when_as_stated": "End of 2026", "company": "Northgate Sensing", "event": "Readout of the US pivotal study of the PulsePoint sensor", "basis": "Spoken", "footnote_numbers": [], "source_page": 15}
+      ]
+    },
+    {
+      "heading": "First half of 2027",
+      "source_page": 15,
+      "entries": [
+        {"when_as_stated": "1Q 2027", "company": "Fenwick Bio", "event": "Readout of LODESTAR-2", "basis": "Slide", "footnote_numbers": [], "source_page": 15},
+        {"when_as_stated": "1Q 2027", "company": "Halden Pharmaceuticals", "event": "Filing of tabrexaban", "basis": "Slide", "footnote_numbers": [], "source_page": 15},
+        {"when_as_stated": "1Q 2027", "company": "Arden Therapeutics", "event": "Start of FALCONER", "basis": "Slide", "footnote_numbers": [], "source_page": 15},
+        {"when_as_stated": "2Q 2027", "company": "Kessler Pharma", "event": "Filing of tovacamten in the EU", "basis": "Slide", "footnote_numbers": [], "source_page": 15},
+        {"when_as_stated": "2Q 2027", "company": "Ravensworth Medical", "event": "Readout of HARBOURLIGHT-US", "basis": "Spoken", "footnote_numbers": [], "source_page": 15},
+        {"when_as_stated": "2Q 2027", "company": "Ebbwater Genetics", "event": "Submission for EBW-100", "basis": "Slide", "footnote_numbers": [], "source_page": 15}
+      ]
+    },
+    {
+      "heading": "Second half of 2027",
+      "source_page": 15,
+      "entries": [
+        {"when_as_stated": "2H 2027", "company": "Vantrel Bio", "event": "Readout of SILVERBIRCH-1", "basis": "Spoken and slide", "footnote_numbers": [1], "source_page": 15},
+        {"when_as_stated": "2H 2027", "company": "Calderon Therapeutics", "event": "Start of CALLISTO-2", "basis": "Slide", "footnote_numbers": [], "source_page": 15},
+        {"when_as_stated": "End of 2027", "company": "Tollan Therapeutics", "event": "First human dosing", "basis": "Spoken", "footnote_numbers": [2], "source_page": 16, "notes": "This row appears at the top of page 16 under a repeated column header with no new group heading; the preceding heading on page 15 is \"Second half of 2027\", so it is placed in that group."}
+      ]
+    },
+    {
+      "heading": "2028 and later",
+      "source_page": 16,
+      "entries": [
+        {"when_as_stated": "2028", "company": "Marlowe Pharma", "event": "Readouts of GRANITE-1 and GRANITE-2", "basis": "Slide", "footnote_numbers": [], "source_page": 16},
+        {"when_as_stated": "2029", "company": "Oriel Cardiogenetics", "event": "Readout of the pivotal study of ORL-7", "basis": "Spoken", "footnote_numbers": [], "source_page": 16},
+        {"when_as_stated": "2029", "company": "Calderon Therapeutics", "event": "Readout of CALLISTO-2", "basis": "Slide", "footnote_numbers": [], "source_page": 16},
+        {"when_as_stated": "2029", "company": "Mireille Medical", "event": "First clinical use of the MgFlex scaffold", "basis": "Spoken", "footnote_numbers": [], "source_page": 16}
+      ]
+    },
+    {
+      "heading": "Stated without a firm date",
+      "source_page": 16,
+      "entries": [
+        {"when_as_stated": "\"Next year\"", "company": "Kestrel Electro", "event": "CE mark for the Kestrel PF-1", "basis": "Spoken", "footnote_numbers": [], "source_page": 16},
+        {"when_as_stated": "\"Early next year\"", "company": "Castlebay Therapeutics", "event": "Start of a phase 3 study of CBY-01", "basis": "Spoken", "footnote_numbers": [3], "source_page": 16},
+        {"when_as_stated": "\"Already enrolled\"", "company": "Lumen Therapy", "event": "European trial of 120 against 120 patients", "basis": "Spoken", "footnote_numbers": [4], "source_page": 16},
+        {"when_as_stated": "Not stated", "company": "Serrat Biosciences", "event": "Decision on a European study of ilmasiran", "basis": "Spoken", "footnote_numbers": [], "source_page": 16},
+        {"when_as_stated": "Not stated", "company": "Brightwater Genomics", "event": "Certification of the HCM screening module", "basis": "Spoken", "footnote_numbers": [], "source_page": 16}
+      ]
+    }
+  ],
+  "footnotes": [
+    {"chapter": "Dates to watch", "number": 1, "text_verbatim": "The speaker said \"late next year\"; the slide gives \"2H 2027\".", "source_page": 15, "anchored_to": {"company": "Vantrel Bio", "event": "Readout of SILVERBIRCH-1"}},
+    {"chapter": "Dates to watch", "number": 2, "text_verbatim": "The company's public statements, found on review, say only that it will be ready to apply for trial authorisation in 2027.", "source_page": 16, "anchored_to": {"company": "Tollan Therapeutics", "event": "First human dosing"}, "verification_against_public_source": true},
+    {"chapter": "Dates to watch", "number": 3, "text_verbatim": "The company's published guidance, found on review, was the second half of 2026; no phase 3 study was registered on 2 November 2026.", "source_page": 16, "anchored_to": {"company": "Castlebay Therapeutics", "event": "Start of a phase 3 study of CBY-01"}, "verification_against_public_source": true},
+    {"chapter": "Dates to watch", "number": 4, "text_verbatim": "The slide shows enrolment running from August to December 2026 at 9 sites; the registry record read on 2 November 2026 lists 7 sites in Germany and Austria, a start date of 2 June 2026 and a status of recruiting.", "source_page": 16, "anchored_to": {"company": "Lumen Therapy", "event": "European trial of 120 against 120 patients"}, "verification_against_public_source": true}
+  ],
+  "page_footer_verbatim": "Sample report. All organisations, people, products and data are fictional."
+}

@@ -1,0 +1,1453 @@
+{
+ "section": "Programme and contributors",
+ "source_pages": [
+  9,
+  10
+ ],
+ "intro_verbatim": "The programme of the meeting as published by the society, with the moderators, speakers and panel members of each session. All names are fictional.",
+ "organising_committee_verbatim": "The organising committee of the meeting comprised Professor Annelise Dahlberg (President), Professor Rui Castelo (President Elect), Dr Henrik Solberg (co-opted Board member and programme lead), Professor Beatriz Amaral (General Secretary), Professor Oskar Weiland (Past President) and Fiona Garrity (Executive Director).",
+ "organising_committee": [
+  {
+   "name": "Annelise Dahlberg",
+   "title_as_printed": "Professor",
+   "role": "President",
+   "source_page": 9
+  },
+  {
+   "name": "Rui Castelo",
+   "title_as_printed": "Professor",
+   "role": "President Elect",
+   "source_page": 9
+  },
+  {
+   "name": "Henrik Solberg",
+   "title_as_printed": "Dr",
+   "role": "co-opted Board member and programme lead",
+   "source_page": 9
+  },
+  {
+   "name": "Beatriz Amaral",
+   "title_as_printed": "Professor",
+   "role": "General Secretary",
+   "source_page": 9
+  },
+  {
+   "name": "Oskar Weiland",
+   "title_as_printed": "Professor",
+   "role": "Past President",
+   "source_page": 9
+  },
+  {
+   "name": "Fiona Garrity",
+   "title_as_printed": null,
+   "role": "Executive Director",
+   "source_page": 9
+  }
+ ],
+ "table_columns_as_printed": [
+  "Time",
+  "Session",
+  "Moderators",
+  "Speakers and panel members"
+ ],
+ "sessions": [
+  {
+   "time": "13:00",
+   "title": "Opening",
+   "moderators": [],
+   "speakers": [
+    {
+     "name": "Annelise Dahlberg",
+     "organisation": null,
+     "role": "opening"
+    },
+    {
+     "name": "Henrik Solberg",
+     "organisation": null,
+     "role": "opening"
+    }
+   ],
+   "notes": "Moderators column is blank. 'Annelise Dahlberg; Henrik Solberg' is printed in the 'Speakers and panel members' column (confirmed from layout file). No organisations given.",
+   "footnote_numbers": [],
+   "source_page": 9
+  },
+  {
+   "time": "13:06",
+   "title": "Heart failure with preserved ejection fraction and cardiometabolic disease",
+   "moderators": [
+    "Henrik Solberg",
+    "Ingrid Haaland"
+   ],
+   "speakers": [
+    {
+     "name": "Laure Mercier",
+     "organisation": "Lumavant",
+     "role": "speaker"
+    },
+    {
+     "name": "David Okonkwo",
+     "organisation": "Serrat Biosciences",
+     "role": "speaker"
+    },
+    {
+     "name": "Laure Mercier",
+     "organisation": null,
+     "role": "panel",
+     "notes": "Printed in the 'Panel:' listing as 'Laure Mercier' with no organisation beside the name; the same name appears earlier in the row as a speaker with organisation 'Lumavant'."
+    },
+    {
+     "name": "Petra Novak",
+     "organisation": "Clarity Function Labs",
+     "role": "panel"
+    },
+    {
+     "name": "Catherine Wyndham",
+     "organisation": null,
+     "role": "panel"
+    },
+    {
+     "name": "Luís Figueiredo",
+     "organisation": null,
+     "role": "panel"
+    }
+   ],
+   "notes": "Laure Mercier appears both as speaker ('Laure Mercier, Lumavant') and, without an organisation, in the panel listing. Catherine Wyndham and Luís Figueiredo are printed without an organisation.",
+   "footnote_numbers": [],
+   "source_page": 9
+  },
+  {
+   "time": "13:32",
+   "title": "Lipid-lowering and atherosclerosis",
+   "moderators": [
+    "Oskar Weiland",
+    "Elena Marchetti"
+   ],
+   "speakers": [
+    {
+     "name": "Rachel Adeyemi",
+     "organisation": "Vantrel Bio",
+     "role": "speaker"
+    },
+    {
+     "name": "Jonas Keller",
+     "organisation": "Marlowe Pharma",
+     "role": "speaker"
+    },
+    {
+     "name": "Miriam Castellanos",
+     "organisation": "Arden Therapeutics",
+     "role": "speaker"
+    },
+    {
+     "name": "Tobias Hartmann",
+     "organisation": "Solenne Biologics",
+     "role": "speaker"
+    },
+    {
+     "name": "Priya Raman",
+     "organisation": "Ravensworth Medical",
+     "role": "speaker"
+    },
+    {
+     "name": "Rachel Adeyemi",
+     "organisation": "Vantrel Bio",
+     "role": "panel",
+     "notes": "Not named individually in the panel listing; the panel is printed as 'the five speakers and Sofia Esteves', so this entry repeats the speaker entry 'Rachel Adeyemi, Vantrel Bio' printed in the same row."
+    },
+    {
+     "name": "Jonas Keller",
+     "organisation": "Marlowe Pharma",
+     "role": "panel",
+     "notes": "Not named individually in the panel listing; the panel is printed as 'the five speakers and Sofia Esteves', so this entry repeats the speaker entry 'Jonas Keller, Marlowe Pharma' printed in the same row."
+    },
+    {
+     "name": "Miriam Castellanos",
+     "organisation": "Arden Therapeutics",
+     "role": "panel",
+     "notes": "Not named individually in the panel listing; the panel is printed as 'the five speakers and Sofia Esteves', so this entry repeats the speaker entry 'Miriam Castellanos, Arden Therapeutics' printed in the same row."
+    },
+    {
+     "name": "Tobias Hartmann",
+     "organisation": "Solenne Biologics",
+     "role": "panel",
+     "notes": "Not named individually in the panel listing; the panel is printed as 'the five speakers and Sofia Esteves', so this entry repeats the speaker entry 'Tobias Hartmann, Solenne Biologics' printed in the same row."
+    },
+    {
+     "name": "Priya Raman",
+     "organisation": "Ravensworth Medical",
+     "role": "panel",
+     "notes": "Not named individually in the panel listing; the panel is printed as 'the five speakers and Sofia Esteves', so this entry repeats the speaker entry 'Priya Raman, Ravensworth Medical' printed in the same row."
+    },
+    {
+     "name": "Sofia Esteves",
+     "organisation": null,
+     "role": "panel",
+     "notes": "Footnote 1: the published programme lists Dieter Vogel as the sixth member of this panel; the chair announced at the start of the session that Sofia Esteves would take his place."
+    }
+   ],
+   "notes": "Panel printed as 'the five speakers and Sofia Esteves'; the five speakers are therefore listed individually as panel members. Dieter Vogel is named only in footnote 1 as the person listed in the published programme; he is not listed here as a participant. Sofia Esteves has no organisation printed.",
+   "footnote_numbers": [
+    1
+   ],
+   "source_page": 9
+  },
+  {
+   "time": "14:28",
+   "title": "Inherited and rare cardiomyopathies",
+   "moderators": [
+    "Mette Kristiansen",
+    "Alessandro Conti"
+   ],
+   "speakers": [
+    {
+     "name": "Samuel Whitlock",
+     "organisation": "Calderon Therapeutics",
+     "role": "speaker"
+    },
+    {
+     "name": "Aisha Rahman",
+     "organisation": "Ebbwater Genetics",
+     "role": "speaker"
+    },
+    {
+     "name": "Nikolai Petrov",
+     "organisation": "Fenwick Bio",
+     "role": "speaker"
+    },
+    {
+     "name": "Grace Nakamura",
+     "organisation": "Kessler Pharma",
+     "role": "speaker"
+    },
+    {
+     "name": "Felix Brandt",
+     "organisation": "Oriel Cardiogenetics",
+     "role": "speaker"
+    },
+    {
+     "name": "Samuel Whitlock",
+     "organisation": null,
+     "role": "panel",
+     "notes": "Printed in the 'Panel:' listing as 'Samuel Whitlock' with no organisation beside the name; the same name appears earlier in the row as a speaker with organisation 'Calderon Therapeutics'."
+    },
+    {
+     "name": "Felix Brandt",
+     "organisation": null,
+     "role": "panel",
+     "notes": "Printed in the 'Panel:' listing as 'Felix Brandt' with no organisation beside the name; the same name appears earlier in the row as a speaker with organisation 'Oriel Cardiogenetics'."
+    },
+    {
+     "name": "Yusuf Demir",
+     "organisation": "Castlebay Therapeutics",
+     "role": "panel"
+    },
+    {
+     "name": "Robert Ashcroft",
+     "organisation": null,
+     "role": "panel"
+    },
+    {
+     "name": "Mateus Oliveira",
+     "organisation": null,
+     "role": "guest speaker",
+     "notes": "Printed as 'Guest speaker: Mateus Oliveira, introduced by Henrik Solberg'. No organisation given."
+    }
+   ],
+   "notes": "Henrik Solberg is named in this row only as the person who introduced the guest speaker ('introduced by Henrik Solberg'); he is not listed as a moderator or speaker of this session. Samuel Whitlock and Felix Brandt are printed with organisations as speakers but without an organisation in the panel listing. Robert Ashcroft has no organisation printed.",
+   "footnote_numbers": [],
+   "source_page": 9
+  },
+  {
+   "time": "15:08",
+   "title": "Keynote lecture",
+   "moderators": [
+    "Annelise Dahlberg",
+    "Henrik Solberg",
+    "Klaus Reinhardt"
+   ],
+   "speakers": [
+    {
+     "name": "Ilse Vandermeer",
+     "organisation": "senior scientific officer at the European medicines regulator, speaking in a personal capacity",
+     "role": "speaker",
+     "notes": "Printed as 'Ilse Vandermeer, senior scientific officer at the European medicines regulator, speaking in a personal capacity'. No organisation name is printed; the description is given instead."
+    }
+   ],
+   "notes": null,
+   "footnote_numbers": [],
+   "source_page": 9
+  },
+  {
+   "time": "15:33",
+   "title": "Investor panel",
+   "moderators": [
+    "Henrik Solberg",
+    "Beatriz Amaral"
+   ],
+   "speakers": [
+    {
+     "name": "Emily Thorne",
+     "organisation": "Blackthorn Ventures",
+     "role": "speaker"
+    },
+    {
+     "name": "Kenji Okada",
+     "organisation": "Harbourline Capital",
+     "role": "speaker"
+    },
+    {
+     "name": "Clara Fontaine",
+     "organisation": "Ashcombe Partners",
+     "role": "speaker"
+    },
+    {
+     "name": "Marcus Hale",
+     "organisation": "Castellane Seed Fund",
+     "role": "speaker",
+     "notes": "Footnote 2: the published programme gives Marcus Hale's affiliation as Strategic Horizons, Inc.; he stated during the session that his team leads the externally facing functions of the Castellane Seed Fund."
+    }
+   ],
+   "notes": "The session is titled 'Investor panel' but the column does not use the word 'Panel:' before the names; the four names are recorded with role 'speaker' as printed in the 'Speakers and panel members' column.",
+   "footnote_numbers": [
+    2
+   ],
+   "source_page": 9
+  },
+  {
+   "time": "16:20",
+   "title": "Arrhythmia and thrombosis",
+   "moderators": [
+    "Annelise Dahlberg",
+    "Giulia Ferraro"
+   ],
+   "speakers": [
+    {
+     "name": "Owen Price",
+     "organisation": "Halden Pharmaceuticals",
+     "role": "speaker"
+    },
+    {
+     "name": "Lena Fischer",
+     "organisation": "Orrinvale Medical",
+     "role": "speaker"
+    },
+    {
+     "name": "Anders Lund",
+     "organisation": "Kestrel Electro",
+     "role": "speaker"
+    },
+    {
+     "name": "Simone Baptiste",
+     "organisation": "Brightwater Genomics",
+     "role": "speaker"
+    },
+    {
+     "name": "Hugo Meyer",
+     "organisation": "Tessaro Cardio",
+     "role": "speaker"
+    },
+    {
+     "name": "Owen Price",
+     "organisation": null,
+     "role": "panel",
+     "notes": "Printed in the 'Panel:' listing as 'Owen Price' with no organisation beside the name; the same name appears earlier in the row as a speaker with organisation 'Halden Pharmaceuticals'."
+    },
+    {
+     "name": "Lena Fischer",
+     "organisation": null,
+     "role": "panel",
+     "notes": "Printed in the 'Panel:' listing as 'Lena Fischer' with no organisation beside the name; the same name appears earlier in the row as a speaker with organisation 'Orrinvale Medical'."
+    },
+    {
+     "name": "Viktor Horvath",
+     "organisation": "Cadence Rhythm",
+     "role": "panel"
+    },
+    {
+     "name": "Adaeze Nwosu",
+     "organisation": null,
+     "role": "panel"
+    }
+   ],
+   "notes": "Owen Price and Lena Fischer are printed with organisations as speakers but without an organisation in the panel listing. Adaeze Nwosu has no organisation printed.",
+   "footnote_numbers": [],
+   "source_page": 9
+  },
+  {
+   "time": "17:01",
+   "title": "Innovations in imaging, intervention and digital care",
+   "moderators": [
+    "Inês Carvalho",
+    "Rui Castelo"
+   ],
+   "speakers": [
+    {
+     "name": "Johan Pedersen",
+     "organisation": "Wrenfield Imaging",
+     "role": "speaker"
+    },
+    {
+     "name": "Chloe Barrington",
+     "organisation": "Northgate Sensing",
+     "role": "speaker"
+    },
+    {
+     "name": "Daniel Kowalski",
+     "organisation": "Fieldstone Clinical Research",
+     "role": "speaker"
+    },
+    {
+     "name": "Mei-Lin Chao",
+     "organisation": "Corvane Systems",
+     "role": "speaker"
+    },
+    {
+     "name": "Rafael Ortega",
+     "organisation": "Castellane Devices",
+     "role": "panel"
+    },
+    {
+     "name": "Yannick Dubois",
+     "organisation": null,
+     "role": "panel"
+    },
+    {
+     "name": "Hana Suzuki",
+     "organisation": null,
+     "role": "panel"
+    }
+   ],
+   "notes": "Yannick Dubois and Hana Suzuki have no organisation printed.",
+   "footnote_numbers": [],
+   "source_page": 10
+  },
+  {
+   "time": "17:30",
+   "title": "Rapid fire presentations by emerging companies",
+   "moderators": [
+    "Beatriz Amaral",
+    "Arjun Mehta"
+   ],
+   "speakers": [
+    {
+     "name": "Ines Lorenz",
+     "organisation": "Aurelian Bio",
+     "role": "speaker"
+    },
+    {
+     "name": "Pierre Lacombe",
+     "organisation": "Tollan Therapeutics",
+     "role": "speaker"
+    },
+    {
+     "name": "Andrea Rossi",
+     "organisation": "Mireille Medical",
+     "role": "speaker"
+    },
+    {
+     "name": "Callum Fraser",
+     "organisation": "Saltmarsh Devices",
+     "role": "speaker"
+    },
+    {
+     "name": "Jana Tichy",
+     "organisation": "Lumen Therapy",
+     "role": "speaker"
+    },
+    {
+     "name": "John Carver",
+     "organisation": "Northwind Bioelectric",
+     "role": "speaker"
+    },
+    {
+     "name": "Ana Pires",
+     "organisation": "Vectorly",
+     "role": "speaker"
+    },
+    {
+     "name": "Alastair Grant",
+     "organisation": "CardioMetrix (in collaboration with Larkspur Labs)",
+     "role": "speaker",
+     "notes": "Printed as 'Alastair Grant, CardioMetrix (in collaboration with Larkspur Labs)'."
+    },
+    {
+     "name": "Katarina Novotna",
+     "organisation": null,
+     "role": "panel"
+    },
+    {
+     "name": "Marco Benedetti",
+     "organisation": null,
+     "role": "panel"
+    }
+   ],
+   "notes": "In this row the text 'Panel: Katarina Novotna; Marco Benedetti' is printed in the Moderators column (after 'Beatriz Amaral; Arjun Mehta.'), not in the 'Speakers and panel members' column (confirmed from layout file). They are recorded here as panel members.",
+   "footnote_numbers": [],
+   "source_page": 10
+  },
+  {
+   "time": "18:10",
+   "title": "Closing remarks",
+   "moderators": [],
+   "speakers": [
+    {
+     "name": "Annelise Dahlberg",
+     "organisation": null,
+     "role": "closing"
+    },
+    {
+     "name": "Henrik Solberg",
+     "organisation": null,
+     "role": "closing"
+    }
+   ],
+   "notes": "Moderators column is blank. 'Annelise Dahlberg; Henrik Solberg' is printed in the 'Speakers and panel members' column (confirmed from layout file).",
+   "footnote_numbers": [],
+   "source_page": 10
+  }
+ ],
+ "footnotes": [
+  {
+   "chapter": "Programme and contributors",
+   "number": 1,
+   "source_page": 9,
+   "text_verbatim": "The published programme lists Dieter Vogel as the sixth member of this panel. The chair announced at the start of the session that Sofia Esteves would take his place.",
+   "anchored_to": "Session 13:32 Lipid-lowering and atherosclerosis, panel entry 'the five speakers and Sofia Esteves'",
+   "basis": "published programme vs. chair's announcement at the start of the session (spoken)"
+  },
+  {
+   "chapter": "Programme and contributors",
+   "number": 2,
+   "source_page": 9,
+   "text_verbatim": "The published programme gives Marcus Hale's affiliation as Strategic Horizons, Inc. He stated during the session that his team leads the externally facing functions of the Castellane Seed Fund.",
+   "anchored_to": "Session 15:33 Investor panel, entry 'Marcus Hale, Castellane Seed Fund'",
+   "basis": "published programme vs. speaker's own statement during the session (spoken)"
+  }
+ ],
+ "people": [
+  {
+   "name": "Annelise Dahlberg",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": null,
+     "role": "organising committee: President"
+    },
+    {
+     "session_time": "13:00",
+     "role": "opening"
+    },
+    {
+     "session_time": "15:08",
+     "role": "moderator"
+    },
+    {
+     "session_time": "16:20",
+     "role": "moderator"
+    },
+    {
+     "session_time": "18:10",
+     "role": "closing"
+    }
+   ],
+   "source_pages": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Rui Castelo",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": null,
+     "role": "organising committee: President Elect"
+    },
+    {
+     "session_time": "17:01",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Henrik Solberg",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": null,
+     "role": "organising committee: co-opted Board member and programme lead"
+    },
+    {
+     "session_time": "13:00",
+     "role": "opening"
+    },
+    {
+     "session_time": "13:06",
+     "role": "moderator"
+    },
+    {
+     "session_time": "15:08",
+     "role": "moderator"
+    },
+    {
+     "session_time": "15:33",
+     "role": "moderator"
+    },
+    {
+     "session_time": "18:10",
+     "role": "closing"
+    },
+    {
+     "session_time": "14:28",
+     "role": "introduced guest speaker"
+    }
+   ],
+   "source_pages": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Beatriz Amaral",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": null,
+     "role": "organising committee: General Secretary"
+    },
+    {
+     "session_time": "15:33",
+     "role": "moderator"
+    },
+    {
+     "session_time": "17:30",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Oskar Weiland",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": null,
+     "role": "organising committee: Past President"
+    },
+    {
+     "session_time": "13:32",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Fiona Garrity",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": null,
+     "role": "organising committee: Executive Director"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Ingrid Haaland",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "13:06",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Laure Mercier",
+   "organisation": "Lumavant",
+   "roles": [
+    {
+     "session_time": "13:06",
+     "role": "speaker"
+    },
+    {
+     "session_time": "13:06",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "David Okonkwo",
+   "organisation": "Serrat Biosciences",
+   "roles": [
+    {
+     "session_time": "13:06",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Petra Novak",
+   "organisation": "Clarity Function Labs",
+   "roles": [
+    {
+     "session_time": "13:06",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Catherine Wyndham",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "13:06",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Luís Figueiredo",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "13:06",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Elena Marchetti",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "13:32",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Rachel Adeyemi",
+   "organisation": "Vantrel Bio",
+   "roles": [
+    {
+     "session_time": "13:32",
+     "role": "speaker"
+    },
+    {
+     "session_time": "13:32",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Jonas Keller",
+   "organisation": "Marlowe Pharma",
+   "roles": [
+    {
+     "session_time": "13:32",
+     "role": "speaker"
+    },
+    {
+     "session_time": "13:32",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Miriam Castellanos",
+   "organisation": "Arden Therapeutics",
+   "roles": [
+    {
+     "session_time": "13:32",
+     "role": "speaker"
+    },
+    {
+     "session_time": "13:32",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Tobias Hartmann",
+   "organisation": "Solenne Biologics",
+   "roles": [
+    {
+     "session_time": "13:32",
+     "role": "speaker"
+    },
+    {
+     "session_time": "13:32",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Priya Raman",
+   "organisation": "Ravensworth Medical",
+   "roles": [
+    {
+     "session_time": "13:32",
+     "role": "speaker"
+    },
+    {
+     "session_time": "13:32",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Sofia Esteves",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "13:32",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ],
+   "notes": "Footnote 1: took the place of Dieter Vogel on the 13:32 panel, as announced by the chair."
+  },
+  {
+   "name": "Mette Kristiansen",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Alessandro Conti",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Samuel Whitlock",
+   "organisation": "Calderon Therapeutics",
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "speaker"
+    },
+    {
+     "session_time": "14:28",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Aisha Rahman",
+   "organisation": "Ebbwater Genetics",
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Nikolai Petrov",
+   "organisation": "Fenwick Bio",
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Grace Nakamura",
+   "organisation": "Kessler Pharma",
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Felix Brandt",
+   "organisation": "Oriel Cardiogenetics",
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "speaker"
+    },
+    {
+     "session_time": "14:28",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Yusuf Demir",
+   "organisation": "Castlebay Therapeutics",
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Robert Ashcroft",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Mateus Oliveira",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "14:28",
+     "role": "guest speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Klaus Reinhardt",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "15:08",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Ilse Vandermeer",
+   "organisation": "senior scientific officer at the European medicines regulator, speaking in a personal capacity",
+   "roles": [
+    {
+     "session_time": "15:08",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ],
+   "notes": "Described as 'senior scientific officer at the European medicines regulator, speaking in a personal capacity'; no organisation name printed."
+  },
+  {
+   "name": "Emily Thorne",
+   "organisation": "Blackthorn Ventures",
+   "roles": [
+    {
+     "session_time": "15:33",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Kenji Okada",
+   "organisation": "Harbourline Capital",
+   "roles": [
+    {
+     "session_time": "15:33",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Clara Fontaine",
+   "organisation": "Ashcombe Partners",
+   "roles": [
+    {
+     "session_time": "15:33",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Marcus Hale",
+   "organisation": "Castellane Seed Fund",
+   "roles": [
+    {
+     "session_time": "15:33",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ],
+   "notes": "Footnote 2: published programme gives affiliation as Strategic Horizons, Inc.; stated during the session that his team leads the externally facing functions of the Castellane Seed Fund."
+  },
+  {
+   "name": "Giulia Ferraro",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "16:20",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Owen Price",
+   "organisation": "Halden Pharmaceuticals",
+   "roles": [
+    {
+     "session_time": "16:20",
+     "role": "speaker"
+    },
+    {
+     "session_time": "16:20",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Lena Fischer",
+   "organisation": "Orrinvale Medical",
+   "roles": [
+    {
+     "session_time": "16:20",
+     "role": "speaker"
+    },
+    {
+     "session_time": "16:20",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Anders Lund",
+   "organisation": "Kestrel Electro",
+   "roles": [
+    {
+     "session_time": "16:20",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Simone Baptiste",
+   "organisation": "Brightwater Genomics",
+   "roles": [
+    {
+     "session_time": "16:20",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Hugo Meyer",
+   "organisation": "Tessaro Cardio",
+   "roles": [
+    {
+     "session_time": "16:20",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Viktor Horvath",
+   "organisation": "Cadence Rhythm",
+   "roles": [
+    {
+     "session_time": "16:20",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Adaeze Nwosu",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "16:20",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  },
+  {
+   "name": "Inês Carvalho",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "17:01",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Johan Pedersen",
+   "organisation": "Wrenfield Imaging",
+   "roles": [
+    {
+     "session_time": "17:01",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Chloe Barrington",
+   "organisation": "Northgate Sensing",
+   "roles": [
+    {
+     "session_time": "17:01",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Daniel Kowalski",
+   "organisation": "Fieldstone Clinical Research",
+   "roles": [
+    {
+     "session_time": "17:01",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Mei-Lin Chao",
+   "organisation": "Corvane Systems",
+   "roles": [
+    {
+     "session_time": "17:01",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Rafael Ortega",
+   "organisation": "Castellane Devices",
+   "roles": [
+    {
+     "session_time": "17:01",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Yannick Dubois",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "17:01",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Hana Suzuki",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "17:01",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Arjun Mehta",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "moderator"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Ines Lorenz",
+   "organisation": "Aurelian Bio",
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Pierre Lacombe",
+   "organisation": "Tollan Therapeutics",
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Andrea Rossi",
+   "organisation": "Mireille Medical",
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Callum Fraser",
+   "organisation": "Saltmarsh Devices",
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Jana Tichy",
+   "organisation": "Lumen Therapy",
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "John Carver",
+   "organisation": "Northwind Bioelectric",
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Ana Pires",
+   "organisation": "Vectorly",
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Alastair Grant",
+   "organisation": "CardioMetrix (in collaboration with Larkspur Labs)",
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "speaker"
+    }
+   ],
+   "source_pages": [
+    10
+   ],
+   "notes": "Organisation printed as 'CardioMetrix (in collaboration with Larkspur Labs)'."
+  },
+  {
+   "name": "Katarina Novotna",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Marco Benedetti",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "17:30",
+     "role": "panel"
+    }
+   ],
+   "source_pages": [
+    10
+   ]
+  },
+  {
+   "name": "Dieter Vogel",
+   "organisation": null,
+   "roles": [
+    {
+     "session_time": "13:32",
+     "role": "named in footnote 1 only (listed in published programme as sixth panel member; replaced by Sofia Esteves)"
+    }
+   ],
+   "source_pages": [
+    9
+   ]
+  }
+ ],
+ "notes": "Roles are taken from the column headings and the printed labels 'Panel:' and 'Guest speaker:'. Where a name appears in the column without an organisation, organisation is null. Nothing on pages 9-10 is marked as spoken, on a slide, or verified except the two footnotes, which contrast the published programme with what was stated during the session. Panel entries carry only the organisation printed beside the name in the 'Panel:' listing; where a speaker is re-listed in the panel without an organisation, the panel entry's organisation is null and a note points to the speaker entry. Exception: the 13:32 panel is printed as 'the five speakers and Sofia Esteves', so those five panel entries repeat the speaker entries as printed."
+}

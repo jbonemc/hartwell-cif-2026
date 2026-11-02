@@ -1,0 +1,132 @@
+{
+  "chapter": "Developments since the meeting",
+  "source_page": 17,
+  "intro_verbatim": "This chapter records announcements made after the meeting on 14 October 2026 that bear directly on statements in this report. Each is taken from a public source, which is named, and none formed part of what was presented in Lisbon.",
+  "footnotes": [],
+  "notes": "Page 17 contains no footnote markers or footnote text. The page footer reads verbatim: \"Sample report. All organisations, people, products and data are fictional.\" Labels are the lead-in phrases ending with a full stop at the start of each paragraph; the plain-text extraction does not preserve bold formatting, so 'bold lead-in' is inferred from paragraph position only.",
+  "sections": [
+    {
+      "heading": "Results published after the meeting",
+      "source_page": 17,
+      "items": [
+        {
+          "label": "Tabrexaban in atrial fibrillation.",
+          "text_verbatim": "At the meeting Halden Pharmaceuticals reported that OSPREY-AF had met its primary endpoint and that major bleeding was \"nearly halved\", with full results embargoed. According to a company release dated 24 October 2026, the rate of stroke or systemic embolism was 1.21% per year with tabrexaban against 1.16% with the comparator (hazard ratio 1.04, within the non-inferiority margin), major bleeding was 1.9% against 3.1% per year, and discontinuation for adverse events was 4.2% against 4.0%. These figures were read in a syndicated copy of the release and have not been confirmed against the company's own publication; they should be confirmed with Halden before publication.",
+          "company": "Halden Pharmaceuticals",
+          "date_mentioned": "24 October 2026",
+          "relates_to": "What Halden Pharmaceuticals reported at the meeting: that OSPREY-AF had met its primary endpoint and that major bleeding was \"nearly halved\", with full results embargoed.",
+          "spoken_vs_slide_vs_verification": {
+            "spoken_at_meeting": null,
+            "on_slide": null,
+            "verification_public_source": "A company release dated 24 October 2026 (read in a syndicated copy of the release; not confirmed against the company's own publication).",
+            "reported_at_meeting_mode_unspecified": "Halden Pharmaceuticals reported that OSPREY-AF had met its primary endpoint and that major bleeding was \"nearly halved\", with full results embargoed.",
+            "notes": "The page says only \"At the meeting Halden Pharmaceuticals reported that ...\"; it does not state whether this was spoken or shown on a slide, so neither spoken_at_meeting nor on_slide can be filled from this page."
+          },
+          "footnotes": [],
+          "source_page": 17
+        },
+        {
+          "label": "EBW-100 in Danon disease.",
+          "text_verbatim": "On 20 October 2026 Ebbwater Genetics published 24-month data showing stabilisation of left ventricular wall thickness in 5 of 7 treated patients. The slide shown at the meeting stated 6 of 6 evaluable patients at 12 months.",
+          "company": "Ebbwater Genetics",
+          "date_mentioned": "20 October 2026",
+          "relates_to": "The slide shown at the meeting, which stated 6 of 6 evaluable patients at 12 months.",
+          "spoken_vs_slide_vs_verification": {
+            "spoken_at_meeting": null,
+            "on_slide": "6 of 6 evaluable patients at 12 months.",
+            "verification_public_source": "Ebbwater Genetics published 24-month data on 20 October 2026 showing stabilisation of left ventricular wall thickness in 5 of 7 treated patients."
+          },
+          "footnotes": [],
+          "source_page": 17
+        }
+      ]
+    },
+    {
+      "heading": "Regulatory position at the date of this report",
+      "source_page": 17,
+      "items": [
+        {
+          "label": "Tovacamten.",
+          "text_verbatim": "On 28 October 2026 Thornbury Pharma stated that the US regulator had accepted its filing for tovacamten with priority review, with a target action date of 12 March 2027. The product is not approved in any jurisdiction.",
+          "company": "Thornbury Pharma",
+          "date_mentioned": "28 October 2026",
+          "relates_to": null,
+          "notes": "A second date is mentioned: target action date of 12 March 2027. The text does not name which statement in the report this bears on.",
+          "spoken_vs_slide_vs_verification": {
+            "spoken_at_meeting": null,
+            "on_slide": null,
+            "verification_public_source": "Thornbury Pharma statement of 28 October 2026."
+          },
+          "footnotes": [],
+          "source_page": 17
+        },
+        {
+          "label": "Harrowgate Therapeutics.",
+          "text_verbatim": "The company has stated that it plans a rolling submission later in 2026 for its gene therapy in Fabry cardiomyopathy. Nothing is approved.",
+          "company": "Harrowgate Therapeutics",
+          "date_mentioned": null,
+          "relates_to": null,
+          "notes": "No date of the company statement is given on this page. The only timing mentioned is the planned submission timing: \"later in 2026\".",
+          "spoken_vs_slide_vs_verification": {
+            "spoken_at_meeting": null,
+            "on_slide": null,
+            "verification_public_source": "Company statement (source not further specified on this page)."
+          },
+          "footnotes": [],
+          "source_page": 17
+        },
+        {
+          "label": "Lirovasiran.",
+          "text_verbatim": "No readout from SILVERBIRCH-1 had been announced as of 2 November 2026, and the company's guidance is unchanged.",
+          "company": null,
+          "date_mentioned": "2 November 2026",
+          "relates_to": null,
+          "notes": "The text refers to \"the company\" without naming it on this page.",
+          "spoken_vs_slide_vs_verification": {
+            "spoken_at_meeting": null,
+            "on_slide": null,
+            "verification_public_source": "No readout announced as of 2 November 2026; company's guidance unchanged."
+          },
+          "footnotes": [],
+          "source_page": 17
+        },
+        {
+          "label": "Transthyretin silencers in the UK.",
+          "text_verbatim": "The UK health technology appraisal body's listing shows its appraisal of a transthyretin silencer from a company not presenting at the meeting as suspended since July 2025. No active appraisal of a medicine for amyloid cardiomyopathy was listed on 2 November 2026.",
+          "company": null,
+          "date_mentioned": "2 November 2026",
+          "relates_to": null,
+          "notes": "The company is described only as \"a company not presenting at the meeting\". A second date is mentioned: suspended since July 2025.",
+          "spoken_vs_slide_vs_verification": {
+            "spoken_at_meeting": null,
+            "on_slide": null,
+            "verification_public_source": "The UK health technology appraisal body's listing, checked 2 November 2026."
+          },
+          "footnotes": [],
+          "source_page": 17
+        }
+      ]
+    },
+    {
+      "heading": "The next meeting",
+      "source_page": 17,
+      "items": [
+        {
+          "label": null,
+          "text_verbatim": "The Society has announced that the next Forum will take place on Wednesday 6 October 2027 in Gothenburg.",
+          "company": "The Society",
+          "date_mentioned": "Wednesday 6 October 2027",
+          "relates_to": null,
+          "notes": "This paragraph has no lead-in label; \"The Society\" is not further named on this page.",
+          "spoken_vs_slide_vs_verification": {
+            "spoken_at_meeting": null,
+            "on_slide": null,
+            "verification_public_source": "Announcement by the Society (source not further specified on this page)."
+          },
+          "footnotes": [],
+          "source_page": 17
+        }
+      ]
+    }
+  ]
+}
