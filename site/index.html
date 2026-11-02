@@ -1240,11 +1240,11 @@ const click = sel => { const el = document.querySelector(sel); if (el) el.click(
 /* ---------- the two tours ---------- */
 const SITE = [
   { page:'index.html', title:'Welcome', body:[
-      'This is a demonstration of a report microsite, built from a single 25-page PDF: the report of proceedings of a meeting that never took place.',
-      'The society, speakers, companies, products and figures are all sample data. The format is exactly what we would build from your own congress recordings.',
+      'This is a demonstration of the microsites we build from the recordings of a scientific meeting, once every session has been transcribed, checked against the video and verified into a full report of proceedings.',
+      'The meeting, society, speakers, companies, products and figures shown here are all sample data. The format and the method are exactly what we would apply to your own congress.',
       'The tour takes about two minutes.'] },
-  { page:'index.html', sel:'.phero .inner', title:'One report, taken apart', body:[
-      'Every passage, figure and footnote on this site comes from the report, and each one carries the PDF page it came from.',
+  { page:'index.html', sel:'.phero .inner', title:'Every line traceable', body:[
+      'Every passage, figure and footnote on this site comes from the verified report, and each one carries the page it came from.',
       'Nothing is written for the site that the report does not say.'] },
   { page:'index.html', sel:'.site-head .brand', title:'Your identity, not ours', body:[
       'The typeface, colours, logo and photography are all interchangeable.',
@@ -1409,7 +1409,7 @@ function welcome(force){
   const w = h('div', { class:'tour-welcome', role:'dialog', 'aria-label':'Guided tours' },
     h('div', { class:'tour-top' }, h('span', { class:'tour-k' }, 'Sample report · guided tours'), h('button', { class:'tour-x', 'aria-label':'Close', onclick:() => w.remove() }, '×')),
     h('h3', {}, force ? 'Take a guided tour' : 'New here?'),
-    h('p', {}, 'This microsite was built from a single sample report. All of its data is invented, and its fonts, colours, logo and photographs are interchangeable.'),
+    h('p', {}, 'This is a demonstration microsite. Every name and figure on it is sample data, and its fonts, colours, logo and photographs are interchangeable.'),
     h('div', { class:'tour-choices' },
       h('button', { class:'tour-choice', onclick:() => { w.remove(); start('site'); } }, h('b', {}, 'Tour the site'), h('span', {}, 'What the site does with the report, and how the record is made. About two minutes.')),
       h('button', { class:'tour-choice', onclick:() => { w.remove(); start('review'); } }, h('b', {}, 'See the review process'), h('span', {}, 'How speakers propose edits and an administrator approves them. About one minute.'))),
