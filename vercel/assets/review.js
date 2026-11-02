@@ -5,7 +5,7 @@
 const $ = (s, r=document) => r.querySelector(s);
 const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function h(tag, attrs, ...kids){ const el = document.createElement(tag); if (attrs) for (const k in attrs){ const v = attrs[k]; if (v==null||v===false) continue; if (k==='class') el.className = v; else if (k==='html') el.innerHTML = v; else if (k.startsWith('on')) el.addEventListener(k.slice(2), v); else el.setAttribute(k, v===true?'':v); } for (const kid of kids.flat()) if (kid!=null && kid!==false) el.append(kid.nodeType ? kid : document.createTextNode(kid)); return el; }
-const HERE = (location.pathname.split('/').pop() || 'index.html').replace(/[?#].*$/,'');
+const HERE = (function(p){ p = (p || 'index.html').replace(/[?#].*$/,''); return /\.html$/.test(p) ? p : p + '.html'; })(location.pathname.split('/').pop());
 const ADMIN_PASSWORD = 'yourreport';
 const store = { get(k, d){ try { const v = localStorage.getItem('hartwell.'+k); return v==null ? d : JSON.parse(v); } catch(e){ return d; } }, set(k, v){ try { localStorage.setItem('hartwell.'+k, JSON.stringify(v)); } catch(e){} } };
 function allSuggestions(){ const seed = (window.MOCK_SUGGESTIONS||[]).map(s => ({...s})); const local = store.get('suggestions', []); const over = store.get('overrides', {}); const all = [...seed, ...local]; all.forEach(s => { if (over[s.id]) Object.assign(s, over[s.id]); }); return all.sort((a,b) => (b.created||'').localeCompare(a.created||'')); }

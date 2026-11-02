@@ -42,7 +42,7 @@ footer = f'''<footer class="band wrap"><div class="inner">
   <div class="cols">
     <div><b>{R['society_full_name']}</b>{R['title']}<br>{R['subtitle']}<br>{R['publication_month']}</div>
     <div><b>The report</b><a href="report.pdf" target="_blank" rel="noopener" data-dl>Download the full report (PDF, 25 pages)</a></div>
-    <div><b>About this site</b>Every passage, figure and footnote on this site is taken from the report. Page references point to the PDF.<br><a href="about.html">About this report</a> · <a href="method.html">How it was prepared</a><br><a href="#" data-review-open>Speakers and organisers: sign in to review</a> · <a href="review.html">Administrator</a></div>
+    <div><b>About this site</b>Every passage, figure and footnote on this site is taken from the report. Page references point to the PDF.<br><a href="about.html">About this report</a> · <a href="method.html">How it was prepared</a><br><a href="#" data-tour-open>Take a guided tour</a><br><a href="#" data-review-open>Speakers and organisers: sign in to review</a> · <a href="review.html">Administrator</a></div>
   </div>
   <p style="font-size:.78rem;color:var(--band-muted);margin-top:28px;border-top:1px solid var(--band-line);padding-top:16px">{R['footer_disclaimer']}</p>
 </div></footer>
@@ -50,7 +50,7 @@ footer = f'''<footer class="band wrap"><div class="inner">
   <label class="search">{SEARCH}<input id="q" type="search" placeholder="Search a name, company, trial, figure or phrase" aria-label="Search"></label>
   <div class="results" id="results"></div><div class="hint">Searches every passage, table row and footnote in the report. Press Escape to close.</div>
 </div></div>'''
-scripts = '<script>window.DATA=' + payload + ';window.PHOTOS=' + pj + '</script>\n<script>' + cur + '</script>\n<script>' + app + '</script>\n<script>' + (SRC/'review.js').read_text() + '</script>\n'
+scripts = '<script>window.DATA=' + payload + ';window.PHOTOS=' + pj + '</script>\n<script>' + cur + '</script>\n<script>' + app + '</script>\n<script>' + (SRC/'review.js').read_text() + '</script>\n' + '<script>' + (SRC/'tour.js').read_text() + '</script>\n'
 def pager(i):
     main = [p for p in PAGES if p[3]]; j = main.index(PAGES[i]) if PAGES[i][3] else None
     if j is None: return '' if f=='review.html' else '<div class="inner wrap"><div class="pager"><a href="about.html"><small>Back to</small>About this report</a></div></div>'
@@ -70,8 +70,15 @@ for i,(f,l,t,m) in enumerate(PAGES):
 # ---- hosting build (Vercel): shared external assets, images served by Unsplash with an imgix duotone ----
 import re as _re
 host_dir = OUT/'vercel'; (host_dir/'assets').mkdir(parents=True, exist_ok=True)
-cdn = {k: f"https://images.unsplash.com/{v['file']}?ixlib=rb-4.1.0&q=78&fm=jpg&crop=entropy&cs=srgb&w=1800&fit=max&duotone=15263b,ece8e2&duotone-alpha=100" for k, v in credits.items()}
-photos_cdn = {k: {**photos[k], 'src': cdn[k]} for k in photos}
+# photographs: compact WebP copies served from the site itself (full width, and a half-width version for phones)
+from PIL import Image as _Image
+(host_dir/'img').mkdir(parents=True, exist_ok=True)
+for _k in credits:
+    _im = _Image.open(pathlib.Path(__file__).resolve().parent.parent/'img'/f'{_k}.jpg').convert('RGB')
+    for _w, _sfx, _q in ((1600, '', 66), (800, '-sm', 64)):
+        _im.resize((_w, round(_im.height*_w/_im.width)), _Image.LANCZOS).save(host_dir/'img'/f'{_k}{_sfx}.webp', 'WEBP', quality=_q, method=6)
+cdn = {k: f'img/{k}.webp' for k in credits}
+photos_cdn = {k: {**photos[k], 'src': f'img/{k}-sm.webp'} for k in photos}
 css = _re.search(r'<style>(.*?)</style>', head, _re.S).group(1)
 head_ext = _re.sub(r'<style>.*?</style>', '<link rel="stylesheet" href="assets/site.css">', head, flags=_re.S)
 (host_dir/'assets'/'site.css').write_text(css)
@@ -91,16 +98,19 @@ _chunks.append(_buf)
 for _n, _c in enumerate(_chunks, 1): (host_dir/'assets'/f'data-{_n}.js').write_text(_c)
 for _old in host_dir.glob('assets/data.js'): _old.unlink()
 data_tags = ''.join(f'<script src="assets/data-{_n}.js"></script>\n' for _n in range(1, len(_chunks)+1))
-(host_dir/'assets'/'app.js').write_text(app); (host_dir/'assets'/'review.js').write_text((SRC/'review.js').read_text())
-scripts_ext = data_tags + '<script src="assets/app.js"></script>\n<script src="assets/review.js"></script>\n'
+(host_dir/'assets'/'app.js').write_text(app); (host_dir/'assets'/'review.js').write_text((SRC/'review.js').read_text()); (host_dir/'assets'/'tour.js').write_text((SRC/'tour.js').read_text())
+scripts_ext = data_tags + '<script src="assets/app.js"></script>\n<script src="assets/review.js"></script>\n' + '<script src="assets/tour.js"></script>\n'
 for i,(f,l,t,m) in enumerate(PAGES):
     body = (SRC/'pages'/f).read_text()
-    for k, url in cdn.items(): body = body.replace(f'url(img/{k}.jpg)', f'url({url})')
+    used = [k for k in cdn if f'url(img/{k}.jpg)' in body]
+    for k in used: body = body.replace(f'url(img/{k}.jpg)', f'url({cdn[k]})')
+    img_head = ''.join(f'<link rel="preload" as="image" href="img/{k}.webp" media="(min-width:761px)">\n<link rel="preload" as="image" href="img/{k}-sm.webp" media="(max-width:760px)">\n' for k in used[:1])
+    if used: img_head += '<style>@media (max-width:760px){' + ''.join(f'[style*="img/{k}.webp"]{{background-image:url(img/{k}-sm.webp)!important}}' for k in used) + '}</style>\n'
     title_tag = f'<title>{R["title"]}</title>' if f=='index.html' else f'<title>{t} · {R["title"]}</title>'
-    page_head = head_ext.replace('<title>Cardiovascular Innovation Forum 2026</title>', title_tag).replace('<meta name="claude:viewport-fit-sides" content="cover">\n','')
+    page_head = head_ext.replace('<title>Cardiovascular Innovation Forum 2026</title>', title_tag).replace('<link rel="stylesheet" href="assets/site.css">', img_head + '<link rel="stylesheet" href="assets/site.css">').replace('<meta name="claude:viewport-fit-sides" content="cover">\n','')
     content = header + '\n' + body + '\n' + pager(i) + '\n' + footer + '\n' + scripts_ext
     page = '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n' + page_head + '\n</head>\n<body>\n' + content.replace('href="report.pdf" target="_blank" rel="noopener" data-dl', 'href="report.pdf" download="Cardiovascular-Innovation-Forum-2026-Report.pdf" target="_blank" rel="noopener"') + '</body>\n</html>\n'
     (host_dir/f).write_text(page)
 import shutil; shutil.copy(OUT/'report.pdf', host_dir/'report.pdf')
-(host_dir/'vercel.json').write_text(json.dumps({"cleanUrls": True, "headers":[{"source":"/assets/(.*)","headers":[{"key":"Cache-Control","value":"public, max-age=3600"}]}]}, indent=1))
+(host_dir/'vercel.json').write_text(json.dumps({"cleanUrls": True, "headers":[{"source":"/assets/(.*)","headers":[{"key":"Cache-Control","value":"public, max-age=3600"}]},{"source":"/img/(.*)","headers":[{"key":"Cache-Control","value":"public, max-age=2592000"}]}]}, indent=1))
 print('built', len(PAGES), 'pages into', out_dir, ',', art_dir, 'and', host_dir)

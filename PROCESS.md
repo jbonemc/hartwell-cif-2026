@@ -284,6 +284,32 @@ is the Vercel command line from any machine that has the folder:
 (or create an empty project in the Vercel dashboard and drag the `vercel/` folder onto it). Nothing
 in the site depends on the host.
 
+## 12a. Iteration 6: faster photographs and guided tours
+
+**Photographs.** The hosted site had been asking Unsplash's image service to resize and duotone each
+photograph on the fly, about 2.3 MB across the set. The hosting build now makes its own WebP copies
+from the duotoned originals: a 1600-pixel version for desktop and an 800-pixel version that phones
+receive through a media query. The whole set is about 640 KB at full size. Each page preloads its
+main photograph, and `vercel.json` lets browsers cache the images for 30 days. The home page now
+loads about 160 KB of photographs on a desktop and 87 KB on a phone.
+
+**Guided tours.** `src/tour.js` adds two walkthroughs, offered in a small card on a first visit and
+from a "Tour" button in the header and a footer link:
+- *Tour the site* (16 steps across seven pages): what the site does with the report, branding being
+  interchangeable, quotes, Ask, findings and footnotes, the programme and people search, checked
+  charts, dates, trials, search, and how the transcripts are produced.
+- *See the review process* (9 steps): sign-in, review mode, proposing an edit, the administrator
+  queue, approval, and approved edits shown with the original wording kept.
+Both say plainly that the data is sample data. The review tour signs the visitor in as a demo
+reviewer and then as administrator, and restores whatever sign-in they had when it ends.
+
+**Clean web addresses.** Vercel serves pages without ".html". Three scripts worked out the current
+page from the address and so failed to highlight the navigation and to show approved edits there.
+All three now normalise the page name.
+
+The PDF text used by the build's chart check is now kept in the repository as `src/report-text.txt`,
+so the build runs from the repository alone: `python3 src/build.py data src/report-text.txt`.
+
 ## 13. Deliverables
 
 | File | What it is |

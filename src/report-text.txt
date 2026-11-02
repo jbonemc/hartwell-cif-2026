@@ -1,0 +1,1565 @@
+Hartwell Society
+
+Wednesday 14 October 2026, Lisbon Congress Centre, Lisbon
+
+Cardiovascular
+Innovation Forum 2026
+Report of proceedings and analysis
+
+The Hartwell Society for Cardiovascular Medicine
+
+November 2026
+
+Illustrative sample
+
+Contents
+About this report
+
+3
+
+Executive summary
+
+5
+
+Programme and contributors
+
+9
+
+Part One: Thematic analysis
+Lipid-lowering and atherosclerosis
+
+12
+
+Dates to watch
+
+15
+
+Developments since the meeting
+
+17
+
+Part Two: Record of sessions
+Inherited and rare cardiomyopathies
+
+19
+
+Method and verification
+
+22
+
+Trials referred to at the meeting
+
+24
+
+Sample report. All organisations, people, products and data are fictional.
+
+2
+
+About this report
+
+About this report
+This document is a sample. It demonstrates the format, method and standard of a
+report of proceedings prepared from the recordings of a scientific meeting. The
+meeting it describes, the Hartwell Cardiovascular Innovation Forum 2026, is
+fictional, as are the society, the people, the companies, the products, the trials,
+the figures and the sources referred to throughout. No statement in this report
+concerns any real organisation, product or person.
+Purpose and scope
+A report of this kind sets out what was presented in each session of a meeting, draws together
+the subjects that recurred across sessions, and distinguishes throughout between what
+speakers demonstrated with data and what they asserted. The sample covers ten sessions of a
+half-day meeting: opening and closing remarks, six sessions of company presentations with
+panel discussion, a keynote lecture by a regulator and an investor panel. Posters and
+networking sessions are not covered.
+
+How to read this report
+The executive summary sets out twelve principal findings. Part One presents eight thematic
+analyses, each of which follows a single subject across the whole meeting. Part Two is a record
+of each session in programme order. An assessment of the evidence presented, a calendar of
+the dates that speakers gave for forthcoming results, and a chapter on developments
+announced after the meeting follow Part One.
+
+Status of the statements in this report
+Statements attributed to a company are that company's own account of its products and
+results, as given by its representative on the day. Their inclusion does not constitute
+endorsement by the society. Those that could be checked against a public source, such as a
+trial registry, a regulator's website or a company's own announcement, were checked: where
+the public source differs from what was said, the text carries a footnote naming the source.
+Statements for which no public source exists, including unpublished data, forecasts and
+opinions, rest on the speaker alone. Statements attributed to an individual are that individual's
+view. The keynote speaker stated that she was giving her personal views.
+Results from animal or laboratory studies are described as preclinical wherever they appear.
+Where a figure was shown on a slide and was not spoken, the text says so.
+
+Footnotes
+Footnotes are used for one purpose: to record a discrepancy. Where a speaker's words differed
+from the speaker's own slide, where two figures were given for the same thing, where one
+speaker contradicted another, where a statement was clarified after review of the recording, or
+where a public source differs from what was said, the main text gives the version treated as
+primary, which is normally what was said, and the footnote gives the other version.
+
+Sample report. All organisations, people, products and data are fictional.
+
+3
+
+About this report
+
+Basis of the report
+The report was prepared from the video recordings of the meeting. The method by which the
+recordings were transcribed, reviewed, analysed and verified, and the checks applied, are
+described in the appendix.
+
+Sample report. All organisations, people, products and data are fictional.
+
+4
+
+Executive summary
+
+Executive summary
+The Hartwell Cardiovascular Innovation Forum 2026 brought companies,
+investors, clinicians and a regulator into one room for an afternoon, on the
+premise that those who fund, develop, regulate and use cardiovascular
+treatments rarely meet openly. The product closest to routine use was a device
+rather than a drug, and the clinicians on every panel returned to the same
+qualification: longer-acting treatment changes the burden of care without
+removing it.
+Opening the meeting, Professor Annelise Dahlberg identified durability of lipid-lowering
+treatment as a challenge that "remains still a big challenge" and described inherited
+cardiomyopathy as an area "turning into real treatment options". The presentations that
+followed bore both statements out. Orrinvale Medical announced a CE mark for a leadless
+dual-chamber pacemaker; Halden Pharmaceuticals reported that its oral factor XI inhibitor
+had met its primary endpoint in a phase 3 trial of 11,400 patients; Vantrel Bio reported
+lipoprotein(a) lowering above 90% with an outcomes trial fully enrolled. Elsewhere the
+evidence was earlier: gene therapy for inherited cardiomyopathy rested on cohorts of 7 to
+12 patients, and four of the eight emerging companies had no human data at all. The only
+regulator on the programme, Ilse Vandermeer, spoke in a personal capacity; the positions
+of regulators and payers were otherwise reported by companies and clinicians.
+
+Principal findings
+
+1
+
+A leadless dual-chamber pacing system is now CE-marked, and its use
+depends on catheterisation laboratory capacity and training.
+Lena Fischer of Orrinvale Medical announced that the Orrinvale Duo received a CE mark on
+22 September 2026, with an indication restricted to patients with atrioventricular block and
+preserved sinus function, and stated that the burden "shifts from the device clinic to the
+cath lab, it is not removed". In the pivotal DUET study of 415 patients, implant success was
+98.3% and freedom from major complications at 12 months 94.1%, both shown on the
+slide. The figures that 95% of patients achieve atrioventricular synchrony and that 93% of
+physicians prefer the system were presented in a company video without reference to a
+named trial. 1
+
+1 The summary slide shown after the video states "> 90%" for both figures; the video gives 95% and 93%. Neither names a trial.
+
+Sample report. All organisations, people, products and data are fictional.
+
+5
+
+Executive summary
+
+2
+
+Longer-acting treatment does not remove the requirement for ongoing
+monitoring.
+Professor Sofia Esteves stated that no data support leaving a patient unseen for six months,
+and that in her reading of earlier data about half of patients in phase 2 needed uptitration;
+Professor Adaeze Nwosu stated that patients still need monitoring whatever the dosing
+interval. Miriam Castellanos of Arden Therapeutics did not propose a monitoring schedule
+for annual dosing. No speaker gave one.
+
+3
+
+Lowering a biomarker is no longer accepted as sufficient evidence of benefit,
+and the UK health technology appraisal body wants hospitalisation reduction.
+Professor Luís Figueiredo stated that the appraisal body wants a reduction in
+hospitalisation rather than a biomarker, and Nikolai Petrov of Fenwick Bio agreed that
+transthyretin knockdown will not be accepted as benefit on its own. These are accounts
+given by clinicians and companies, not statements by the body itself. 2
+
+4
+
+One oral factor XI inhibitor has phase 3 data against a direct oral
+anticoagulant and a filing plan.
+Owen Price of Halden Pharmaceuticals reported that in OSPREY-AF tabrexaban was noninferior to a standard direct oral anticoagulant for stroke or systemic embolism (hazard ratio
+1.04, upper confidence bound 1.21 against a margin of 1.38), with major bleeding of 1.9%
+per year against 3.1%. He stated that the US regulator had given the company "a green
+light" to file on OSPREY-AF alone; this is the company's account of the regulator's position. 3
+
+5
+
+Gene therapy for hypertrophic cardiomyopathy is approaching pivotal
+planning; the phase 1/2 data show biomarker and mass changes, not
+outcomes.
+Samuel Whitlock of Calderon Therapeutics reported that 12 patients had been dosed with
+CAL-201 in CALLISTO-HCM, with a 44% reduction in NT-proBNP at six months in the
+second cohort and no dose-limiting toxicities. A reduction in left ventricular mass index of 9
+g/m2 appeared on the slide and was not spoken. The pivotal study is planned for the
+second half of 2027. 4
+
+6
+
+Vantrel reported lipoprotein(a) lowering above 90%, with outcomes unknown
+until the second half of 2027.
+Rachel Adeyemi reported a mean reduction of 94% at week 48 in the phase 2 BIRCHWOOD
+study of 240 patients, and that the phase 3 outcomes trial SILVERBIRCH-1, of 8,240
+patients, is fully enrolled with a readout expected "late next year". 5
+
+2 On review, the appraisal body's own listing shows its appraisal of a transthyretin silencer from another company as suspended since July
+2025; no active appraisal of a medicine for amyloid cardiomyopathy was listed on 2 November 2026. The panel described the position as "in
+process".
+3 The slide gives only "filing planned 1Q 2027". The statement about the regulator was spoken and does not appear on any slide or in any public
+source found on review.
+4 The speaker said "nearly half"; the slide gives 43.8%.
+5 The slide gives the readout as "2H 2027". The speaker said "over 90%" for the phase 2 reduction; the slide gives 94%.
+
+Sample report. All organisations, people, products and data are fictional.
+
+6
+
+Executive summary
+
+7
+
+First approvals in inherited cardiomyopathy were described as imminent, but
+each dated statement was a hope, a company target or a line on a slide.
+Professor Robert Ashcroft stated that Harrowgate Therapeutics had announced positive
+pivotal results for a gene therapy in Fabry cardiomyopathy and that he "very much hopes"
+for approval early next year; nothing has been approved. Aisha Rahman of Ebbwater
+Genetics said EBW-100 "was approved for early access" in two countries, where the
+company's own slide describes a provisional authorisation with full authorisation pending. 6
+
+8
+
+Peak oxygen uptake is being adopted as the pivotal endpoint in inherited
+cardiomyopathy, although many advanced patients cannot perform the test.
+Grace Nakamura of Kessler Pharma reported a gain of 1.9 mL/kg/min against placebo in
+ORCHARD-HCM, and Felix Brandt of Oriel Cardiogenetics described a pivotal design on the
+same endpoint. Only 2 of the 9 patients in Oriel's LANTERNWAY study completed
+cardiopulmonary exercise testing.
+
+9
+
+Hypertrophic cardiomyopathy is the most contested inherited indication, and
+the figures for the oral drug in non-obstructive disease appeared only on the
+slide.
+Nakamura stated that "about 10" interventional trials are running in the disease. The
+ORCHARD-1 result in non-obstructive disease, a gain of 0.8 mL/kg/min with p=0.238, was
+shown on the slide while the speaker described "a signal". 7
+
+10
+
+Approval does not secure access, and one speaker reported that trial capacity
+is shrinking.
+Laure Mercier of Lumavant stated that payers often require different study designs from
+regulators; Figueiredo cited a heart failure drug available in Switzerland without
+reimbursement. Daniel Kowalski of Fieldstone Clinical Research stated that the number of
+compounds in cardiovascular trials has risen "600%" in ten years while quality sites fall
+away. 8
+
+11
+
+The European medicines regulator has not yet been asked to qualify an AI tool
+in cardiology, and its conditions are already specific.
+Giving her personal views, Vandermeer stated that no major qualification request has come
+from cardiology and invited one; the conditions she set out for AI in trial analysis were a
+frozen model, a frozen data pipeline, pre-specified validation and a clinically relevant
+endpoint. She put the number of scientific advice procedures involving AI in 2025 at
+"maybe 12". 9
+
+6 The slide reads "provisional authorisation under an early-access framework; full authorisation pending". The spoken word "approved"
+overstates it.
+7 A conference report found on review gives the p value as 0.20; the slide gives 0.238. Neither is statistically significant.
+8 His own chart runs from about 20 compounds to about 120, nearer 500%. His slides were marked confidential.
+9 Her chart shows 13.
+
+Sample report. All organisations, people, products and data are fictional.
+
+7
+
+Executive summary
+
+12
+
+The one patient who spoke defined success as not getting worse, and did not
+expect permanence.
+Mateus Oliveira, 27, treated with a gene therapy about three years ago, said he had been
+told at 19 that he would need a transplant, that he can now climb the stairs at university
+"without stopping on the landing", and that he hopes the treatment "has bought me 10 to
+15 years". He did not name the product and gave no clinical measurements. 10
+
+10 The "10 to 15 years" is his expectation, not time already gained; he added "I don't know if it's forever".
+
+Sample report. All organisations, people, products and data are fictional.
+
+8
+
+Programme and contributors
+
+Programme and contributors
+The programme of the meeting as published by the society, with the moderators,
+speakers and panel members of each session. All names are fictional.
+Organising committee
+The organising committee of the meeting comprised Professor Annelise Dahlberg
+(President), Professor Rui Castelo (President Elect), Dr Henrik Solberg (co-opted Board
+member and programme lead), Professor Beatriz Amaral (General Secretary), Professor
+Oskar Weiland (Past President) and Fiona Garrity (Executive Director).
+
+Programme
+Time
+
+Session
+
+Moderators
+
+Speakers and panel members
+
+13:00
+
+Opening
+
+13:06
+
+Heart failure with
+preserved ejection
+fraction and
+cardiometabolic disease
+
+Henrik Solberg;
+Ingrid Haaland
+
+Laure Mercier, Lumavant; David Okonkwo, Serrat Biosciences.
+Panel: Laure Mercier; Petra Novak, Clarity Function Labs;
+Catherine Wyndham; Luís Figueiredo
+
+13:32
+
+Lipid-lowering and
+atherosclerosis
+
+Oskar Weiland;
+Elena Marchetti
+
+Rachel Adeyemi, Vantrel Bio; Jonas Keller, Marlowe Pharma;
+Miriam Castellanos, Arden Therapeutics; Tobias Hartmann,
+Solenne Biologics; Priya Raman, Ravensworth Medical. Panel: the
+five speakers and Sofia Esteves 1
+
+14:28
+
+Inherited and rare
+cardiomyopathies
+
+Mette Kristiansen;
+Alessandro Conti
+
+Samuel Whitlock, Calderon Therapeutics; Aisha Rahman,
+Ebbwater Genetics; Nikolai Petrov, Fenwick Bio; Grace Nakamura,
+Kessler Pharma; Felix Brandt, Oriel Cardiogenetics. Panel: Samuel
+Whitlock; Felix Brandt; Yusuf Demir, Castlebay Therapeutics;
+Robert Ashcroft. Guest speaker: Mateus Oliveira, introduced by
+Henrik Solberg
+
+15:08
+
+Keynote lecture
+
+Annelise Dahlberg;
+Henrik Solberg;
+Klaus Reinhardt
+
+Ilse Vandermeer, senior scientific officer at the European
+medicines regulator, speaking in a personal capacity
+
+15:33
+
+Investor panel
+
+Henrik Solberg;
+Beatriz Amaral
+
+Emily Thorne, Blackthorn Ventures; Kenji Okada, Harbourline
+Capital; Clara Fontaine, Ashcombe Partners; Marcus Hale,
+Castellane Seed Fund 2
+
+16:20
+
+Arrhythmia and
+thrombosis
+
+Annelise Dahlberg;
+Giulia Ferraro
+
+Owen Price, Halden Pharmaceuticals; Lena Fischer, Orrinvale
+Medical; Anders Lund, Kestrel Electro; Simone Baptiste,
+Brightwater Genomics; Hugo Meyer, Tessaro Cardio. Panel: Owen
+Price; Lena Fischer; Viktor Horvath, Cadence Rhythm; Adaeze
+Nwosu
+
+Annelise Dahlberg; Henrik Solberg
+
+1 The published programme lists Dieter Vogel as the sixth member of this panel. The chair announced at the start of the session that Sofia
+Esteves would take his place.
+2 The published programme gives Marcus Hale's affiliation as Strategic Horizons, Inc. He stated during the session that his team leads the
+externally facing functions of the Castellane Seed Fund.
+
+Sample report. All organisations, people, products and data are fictional.
+
+9
+
+Programme and contributors
+
+Time
+
+Session
+
+Moderators
+
+Speakers and panel members
+
+17:01
+
+Innovations in imaging,
+intervention and digital
+care
+
+Inês Carvalho; Rui
+Castelo
+
+Johan Pedersen, Wrenfield Imaging; Chloe Barrington, Northgate
+Sensing; Daniel Kowalski, Fieldstone Clinical Research; Mei-Lin
+Chao, Corvane Systems. Panel: Rafael Ortega, Castellane Devices;
+Yannick Dubois; Hana Suzuki
+
+17:30
+
+Rapid fire presentations
+by emerging companies
+
+Beatriz Amaral;
+Arjun Mehta. Panel:
+Katarina Novotna;
+Marco Benedetti
+
+Ines Lorenz, Aurelian Bio; Pierre Lacombe, Tollan Therapeutics;
+Andrea Rossi, Mireille Medical; Callum Fraser, Saltmarsh Devices;
+Jana Tichy, Lumen Therapy; John Carver, Northwind Bioelectric;
+Ana Pires, Vectorly; Alastair Grant, CardioMetrix (in collaboration
+with Larkspur Labs)
+
+18:10
+
+Closing remarks
+
+Sample report. All organisations, people, products and data are fictional.
+
+Annelise Dahlberg; Henrik Solberg
+
+10
+
+Part One: Thematic analysis
+In the full report, eight analyses draw together what was said
+across sessions on a single subject. This sample includes one.
+
+Lipid-lowering and atherosclerosis
+
+Lipid-lowering and atherosclerosis
+Five companies presented in the lipid session, and between them they described
+three answers to the problem Professor Annelise Dahlberg had named in her
+opening remarks: a twice-yearly injection against lipoprotein(a), a once-daily oral
+inhibitor of PCSK9, and a once-yearly injection against the same target. The
+figures were large and the comparators were placebo. The clinicians on the panel
+accepted the biology and questioned the follow-up.
+Overview
+Rachel Adeyemi of Vantrel Bio set out the case for lipoprotein(a) as a target: a survey of
+cardiologists found that 63% never test for it, and the company's phase 2 study reported a
+reduction of 94% at week 48. 1 Jonas Keller of Marlowe Pharma reported a 61% reduction
+in LDL cholesterol at week 12 with the oral inhibitor pendrelvarin, and Miriam Castellanos of
+Arden Therapeutics reported that a single dose of ancelsiran held LDL cholesterol 52%
+lower at 12 months. , 2 Tobias Hartmann of Solenne Biologics presented an antibody against
+ANGPTL3, and Priya Raman of Ravensworth Medical a coronary sinus reducer for refractory
+angina. No outcomes data were presented by any company; the one outcomes trial
+described, SILVERBIRCH-1, reads out in the second half of 2027.
+
+Lipoprotein(a) is the new target, and the outcomes are two years away
+Vantrel's position, raised in several sessions, is that a large population is untreated because
+it is untested. Adeyemi reported that 88% of patients in the phase 2 BIRCHWOOD study of
+240 patients reached a lipoprotein(a) level below 125 nmol/L, and that the phase 3
+SILVERBIRCH-1 trial of 8,240 patients, with a primary endpoint of major adverse
+cardiovascular events, is fully enrolled with a readout "late next year". 3 A substudy in 120
+patients reported a 9% fall in plaque volume. , 4
+On the panel Professor Oskar Weiland asked whether plaque regression translates into
+fewer events. Adeyemi said that it is a hypothesis. That exchange is the state of the
+evidence: a biomarker lowered by more than 90%, a structural change of single figures, and
+no outcome yet. Kenji Okada of Harbourline Capital, speaking on the investor panel, named
+lipids as a crowded indication in which understanding one's place in the landscape is the
+critical question.
+
+1 The speaker said a survey of "over 1,000" cardiologists; the slide gives N=1,062.
+2 Marlowe's slide gives 58.7%; Arden's slide gives 51.6%. In each case the speaker rounded upwards.
+3 The slide gives "2H 2027".
+4 The slide gives 8.4%.
+
+Sample report. All organisations, people, products and data are fictional.
+
+12
+
+Lipid-lowering and atherosclerosis
+
+Oral and annual dosing compete on the same target
+Two companies presented PCSK9 inhibition in forms that do not resemble each other.
+Marlowe's pendrelvarin is a once-daily tablet. The phase 2b LANTANA study of 410 patients
+reported the 61% reduction above, and three phase 3 studies, GRANITE-1, GRANITE-2 and
+GRANITE-3, began in the third quarter of 2026 on top of statin therapy, with readouts in
+2028. Keller described them as "about 2,400 patients each". 5
+Arden's ancelsiran is a once-yearly injection. The phase 2 WINTERGREEN study of 112
+patients reported the 52% reduction at 12 months after a single dose, and the phase 3
+FALCONER study of 3,000 patients is to start in the first quarter of 2027, shown on the
+slide. Castellanos stated that patients from the phase 1 study have 7 years of follow-up. 6
+Two company videos were played. In the first, four named clinicians stated that 95% of
+patients achieve annual dosing and 93% prefer it to monthly injections, without naming a
+trial; the second carried patient quotations with the on-screen notice that the voices were
+actor portrayals. , 7 On the panel Castellanos said that patients with 6 years of follow-up are
+on their sixth annual dose and that the company has "seen up to 20 doses" in the openlabel cohort, which the follow-up period does not allow. , 8
+
+Key point. The headline reductions in this chapter cannot be ranked against one
+another. Each was measured at a different time point against placebo in a
+different population, and only one programme has an outcomes trial under way.
+
+Monitoring remains, whatever the interval
+The point raised most often by clinicians, in this session and in the arrhythmia session, was
+that a longer interval between doses is not an interval between visits. Professor Sofia
+Esteves stated that no data support leaving a patient unseen for six months, and that in her
+reading of the earlier data about half of patients in phase 2 needed uptitration. 9 Professor
+Elena Marchetti put the proportion of patients who do not reach their LDL goal on a statin
+alone at "at least 30 to 40%", without a source. Nobody proposed abandoning statins, and
+the consensus of the panel was that combinations and longer dosing intervals are additions
+to the foundation rather than replacements for it.
+Vantrel's own real-world claim cut both ways. Adeyemi reported that 47% of patients on
+injectable lipid therapy are non-persistent by year five, citing a 2025 analysis. 10 The figure
+supports the case for a less frequent injection, and it also describes the population a less
+frequent injection will be given to.
+
+Beyond LDL: an antibody and a device
+Solenne's tirocimab, an antibody against ANGPTL3 given monthly, reported a 49%
+reduction in LDL cholesterol at week 24 in 48 patients with homozygous familial
+hypercholesterolaemia, and a 54% reduction in triglycerides in a phase 2a study in mixed
+
+5 The slide gives 2,350 for GRANITE-1 and 2,410 for GRANITE-2, and lists GRANITE-3 as not yet recruiting; the registry record read on 2
+November 2026 agrees with the slide.
+6 The slide gives 6 years.
+7 The summary slide shown afterwards states "> 90%" for both figures.
+8 Settled on review of the recording as a slip for "up to 6".
+9 This is her reading of published data, not a figure given by any company.
+10 The paper cited on the slide could not be located on review; a separate analysis of the same database gave 72.9%.
+
+Sample report. All organisations, people, products and data are fictional.
+
+13
+
+Lipid-lowering and atherosclerosis
+
+dyslipidaemia. 11 Hartmann stated that injection site reactions occurred in "under 3%" of
+patients and that a depot formulation of an oral follow-on compound, SOL-440, could
+release drug for up to six months; both statements were spoken only and the compound is
+preclinical.
+Ravensworth's CSR-2 coronary sinus reducer is CE-marked. In the sham-controlled
+HARBOURLIGHT study, 71% of patients improved by at least one angina class at six
+months against 45% with sham. 12 Raman stated that the US pivotal study is fully enrolled
+with a readout in the second quarter of 2027. She also said that the first-generation device
+"may be more suitable for patients with microvascular angina", where her own description a
+minute earlier made clear that the second-generation device was meant. , 13
+
+Matters not addressed
+No price was given for any product. No speaker proposed a monitoring schedule for twiceyearly or annual dosing. The comparator in every efficacy figure was placebo on top of
+statin, and no company compared itself with another. The panel did not discuss how a
+once-yearly injection would be recorded and followed in routine records, and no payer or
+health economist was on the programme.
+
+Programmes referenced
+Company
+
+Programme
+
+Stage as presented
+
+Principal point
+
+Vantrel Bio
+
+Lirovasiran, lipoprotein(a)
+siRNA, twice yearly
+
+Phase 3 outcomes trial
+fully enrolled
+
+94% reduction at week 48 in phase 2;
+outcomes in the second half of 2027
+
+Marlowe Pharma
+
+Pendrelvarin, oral PCSK9
+inhibitor, once daily
+
+Three phase 3 studies
+started
+
+61% LDL reduction at week 12 in phase 2b;
+readouts 2028
+
+Marlowe Pharma
+
+Tiravesta, oral lipoprotein(a)
+reducer
+
+Phase 2 recruiting
+
+160 patients; four phase 3 studies planned, two
+recruiting
+
+Arden
+Therapeutics
+
+Ancelsiran, PCSK9 siRNA,
+once yearly
+
+Phase 3 to start in the
+first quarter of 2027
+
+52% LDL reduction held at 12 months after one
+dose
+
+Solenne
+Biologics
+
+Tirocimab, ANGPTL3
+antibody, monthly
+
+Phase 2
+
+49% LDL reduction in homozygous familial
+hypercholesterolaemia
+
+Ravensworth
+Medical
+
+CSR-2 coronary sinus
+reducer
+
+CE-marked; US pivotal
+fully enrolled
+
+71% improved by one angina class against 45%
+with sham
+
+11 The slide gives 48.6% for the familial hypercholesterolaemia study. The speaker described that study as "phase 2b"; the slide says "phase
+2".
+12 The slide gives 70.6% against 44.9%, p=0.0008. The speaker said the study enrolled 250 patients; the registry record gives 240.
+13 Settled on review as a slip of the tongue.
+
+Sample report. All organisations, people, products and data are fictional.
+
+14
+
+Dates to watch
+
+Dates to watch
+The dates in this chapter were stated by speakers, or shown on their slides, at the
+meeting on 14 October 2026; they are the companies' own expectations and not
+confirmed events. Where a speaker said "next year", the entry is placed in 2027
+only where the source itself says so, and otherwise appears under the final
+heading.
+Fourth quarter of 2026
+When (as stated)
+
+Company
+
+Event
+
+Basis
+
+15 October 2026, the
+Congress
+
+Orrinvale Medical
+
+Presentation of 7-year data from the earlier singlechamber device
+
+Spoken
+
+24 October 2026
+
+Halden Pharmaceuticals
+
+Full results of OSPREY-AF at the Global Cardiovascular
+Therapeutics meeting
+
+Spoken and
+slide
+
+18 and 19 November
+2026
+
+European medicines
+regulator
+
+Data forum
+
+Slide
+
+December 2026
+
+Tessaro Cardio
+
+3-year data from TIDEWATER
+
+Slide
+
+End of 2026
+
+Northgate Sensing
+
+Readout of the US pivotal study of the PulsePoint
+sensor
+
+Spoken
+
+First half of 2027
+When (as stated)
+
+Company
+
+Event
+
+Basis
+
+1Q 2027
+
+Fenwick Bio
+
+Readout of LODESTAR-2
+
+Slide
+
+1Q 2027
+
+Halden Pharmaceuticals
+
+Filing of tabrexaban
+
+Slide
+
+1Q 2027
+
+Arden Therapeutics
+
+Start of FALCONER
+
+Slide
+
+2Q 2027
+
+Kessler Pharma
+
+Filing of tovacamten in the EU
+
+Slide
+
+2Q 2027
+
+Ravensworth Medical
+
+Readout of HARBOURLIGHT-US
+
+Spoken
+
+2Q 2027
+
+Ebbwater Genetics
+
+Submission for EBW-100
+
+Slide
+
+Second half of 2027
+When (as stated)
+
+Company
+
+Event
+
+Basis
+
+2H 2027
+
+Vantrel Bio
+
+Readout of SILVERBIRCH-1 1
+
+Spoken and slide
+
+2H 2027
+
+Calderon Therapeutics
+
+Start of CALLISTO-2
+
+Slide
+
+1 The speaker said "late next year"; the slide gives "2H 2027".
+
+Sample report. All organisations, people, products and data are fictional.
+
+15
+
+Dates to watch
+
+When (as stated)
+
+Company
+
+Event
+
+Basis
+
+End of 2027
+
+Tollan Therapeutics
+
+First human dosing 2
+
+Spoken
+
+2028 and later
+When (as stated)
+
+Company
+
+Event
+
+Basis
+
+2028
+
+Marlowe Pharma
+
+Readouts of GRANITE-1 and GRANITE-2
+
+Slide
+
+2029
+
+Oriel Cardiogenetics
+
+Readout of the pivotal study of ORL-7
+
+Spoken
+
+2029
+
+Calderon Therapeutics
+
+Readout of CALLISTO-2
+
+Slide
+
+2029
+
+Mireille Medical
+
+First clinical use of the MgFlex scaffold
+
+Spoken
+
+Stated without a firm date
+When (as stated)
+
+Company
+
+Event
+
+Basis
+
+"Next year"
+
+Kestrel Electro
+
+CE mark for the Kestrel PF-1
+
+Spoken
+
+"Early next year"
+
+Castlebay Therapeutics
+
+Start of a phase 3 study of CBY-01 3
+
+Spoken
+
+"Already enrolled"
+
+Lumen Therapy
+
+European trial of 120 against 120 patients 4
+
+Spoken
+
+Not stated
+
+Serrat Biosciences
+
+Decision on a European study of ilmasiran
+
+Spoken
+
+Not stated
+
+Brightwater Genomics
+
+Certification of the HCM screening module
+
+Spoken
+
+2 The company's public statements, found on review, say only that it will be ready to apply for trial authorisation in 2027.
+3 The company's published guidance, found on review, was the second half of 2026; no phase 3 study was registered on 2 November 2026.
+4 The slide shows enrolment running from August to December 2026 at 9 sites; the registry record read on 2 November 2026 lists 7 sites in
+Germany and Austria, a start date of 2 June 2026 and a status of recruiting.
+
+Sample report. All organisations, people, products and data are fictional.
+
+16
+
+Developments since the meeting
+
+Developments since the meeting
+This chapter records announcements made after the meeting on 14 October 2026
+that bear directly on statements in this report. Each is taken from a public source,
+which is named, and none formed part of what was presented in Lisbon.
+Results published after the meeting
+Tabrexaban in atrial fibrillation. At the meeting Halden Pharmaceuticals reported that
+OSPREY-AF had met its primary endpoint and that major bleeding was "nearly halved", with
+full results embargoed. According to a company release dated 24 October 2026, the rate of
+stroke or systemic embolism was 1.21% per year with tabrexaban against 1.16% with the
+comparator (hazard ratio 1.04, within the non-inferiority margin), major bleeding was 1.9%
+against 3.1% per year, and discontinuation for adverse events was 4.2% against 4.0%.
+These figures were read in a syndicated copy of the release and have not been confirmed
+against the company's own publication; they should be confirmed with Halden before
+publication.
+EBW-100 in Danon disease. On 20 October 2026 Ebbwater Genetics published 24-month
+data showing stabilisation of left ventricular wall thickness in 5 of 7 treated patients. The
+slide shown at the meeting stated 6 of 6 evaluable patients at 12 months.
+
+Regulatory position at the date of this report
+Tovacamten. On 28 October 2026 Thornbury Pharma stated that the US regulator had
+accepted its filing for tovacamten with priority review, with a target action date of 12 March
+2027. The product is not approved in any jurisdiction.
+Harrowgate Therapeutics. The company has stated that it plans a rolling submission later
+in 2026 for its gene therapy in Fabry cardiomyopathy. Nothing is approved.
+Lirovasiran. No readout from SILVERBIRCH-1 had been announced as of 2 November
+2026, and the company's guidance is unchanged.
+Transthyretin silencers in the UK. The UK health technology appraisal body's listing shows
+its appraisal of a transthyretin silencer from a company not presenting at the meeting as
+suspended since July 2025. No active appraisal of a medicine for amyloid cardiomyopathy
+was listed on 2 November 2026.
+
+The next meeting
+The Society has announced that the next Forum will take place on Wednesday 6 October
+2027 in Gothenburg.
+
+Sample report. All organisations, people, products and data are fictional.
+
+17
+
+Part Two: Record of sessions
+In the full report, every session is recorded in programme
+order: what each speaker presented, the evidence shown, and
+the discussion that followed. This sample includes one.
+
+Inherited and rare cardiomyopathies
+
+Inherited and rare cardiomyopathies
+Five companies presented gene therapies, a transthyretin silencer and an oral
+myosin inhibitor for inherited and rare cardiomyopathies, and a patient treated
+with a gene therapy spoke by video link. The session's evidence was early: the
+largest gene therapy cohort was 12 patients, and the only phase 3 result
+presented, for the oral drug, rested on an exercise endpoint that many patients
+with advanced disease cannot perform.
+
+Samuel Whitlock, Calderon Therapeutics
+Whitlock presented CAL-201, an intravenous gene therapy delivering MYBPC3 for
+hypertrophic cardiomyopathy caused by variants in that gene, which he said account for
+"about 40%" of genotyped disease. 1 In the phase 1/2 CALLISTO-HCM study 12 patients
+have been dosed in three cohorts, with 12 weeks of prophylactic immunosuppression. He
+reported a 44% reduction in NT-proBNP at six months in the second cohort and no doselimiting toxicities; a 9 g/m2 reduction in left ventricular mass index appeared on the slide
+and was not spoken. 2 The slide listed an expedited designation in the US and priority status
+in the EU. The pivotal CALLISTO-2 study is planned for the second half of 2027 with a
+readout in 2029. He referred to "around 300 patients" in a natural history study, a figure
+given only in speech.
+
+Aisha Rahman, Ebbwater Genetics
+Rahman presented EBW-100, a gene therapy delivering LAMP2 for Danon disease. Seven
+patients have been treated, and LAMP2 expression was shown on biopsy in 5 of 7. The slide
+stated that 6 of 6 evaluable patients showed stabilisation of left ventricular wall thickness
+at 12 months. 3 She said the study included adolescents; the registry record lists adults
+aged 18 and over. She stated that EBW-100 "was approved for early access" in two
+countries. , 4 She gave the company's size as "about 80 employees" and said "around 300
+patients" had been treated across its programmes; neither figure appears on a slide.
+
+Nikolai Petrov, Fenwick Bio
+Petrov presented dromalsiran, a quarterly subcutaneous siRNA silencing transthyretin, for
+transthyretin amyloid cardiomyopathy. The phase 3 LODESTAR-2 study of 640 patients has
+a composite primary endpoint of all-cause mortality and cardiovascular events at 30
+months, and reported transthyretin knockdown of 91%. 5 The readout is expected "early
+
+1 The slide gives "35 to 40%".
+2 The speaker said "nearly half"; the slide gives 43.8%.
+3 Data published by the company on 20 October 2026 give stabilisation in 5 of 7 treated patients.
+4 The slide reads "provisional authorisation under an early-access framework; full authorisation pending". A submission is targeted for the
+second quarter of 2027.
+
+Sample report. All organisations, people, products and data are fictional.
+
+19
+
+Inherited and rare cardiomyopathies
+
+next year"; the slide gives the first quarter of 2027. Petrov stated that health technology
+appraisal bodies do not accept biomarker knockdown as evidence of benefit, which is why
+the trial measures outcomes. He described a pipeline of "eight" programmes; the slide lists
+seven.
+
+Grace Nakamura, Kessler Pharma
+Nakamura presented tovacamten, a once-daily oral cardiac myosin inhibitor for obstructive
+hypertrophic cardiomyopathy. Kessler is a wholly owned subsidiary of Thornbury Pharma;
+the slide gives the completion of that transaction as 2 September 2026. In the phase 3
+ORCHARD-HCM study of 212 patients, randomised 1:1 over 24 weeks, peak oxygen uptake
+improved by 1.9 mL/kg/min against placebo (p<0.001), with a 48 mmHg reduction in
+outflow tract gradient at the 14 mg dose. 6 A gain of 9.1 points on the Kansas City
+Cardiomyopathy Questionnaire appeared on the slide. In the phase 2 ORCHARD-1 study in
+non-obstructive disease she described "a signal"; the slide gives a gain of 0.8 mL/kg/min
+with p=0.238. A filing in the EU is planned for the second quarter of 2027, shown on the
+slide. She introduced herself as chief medical officer; her title slide reads senior vice
+president, clinical development.
+
+Felix Brandt, Oriel Cardiogenetics
+Brandt presented ORL-7, a gene-agnostic intravenous gene therapy expressing a protective
+modifier for genetic dilated cardiomyopathy. In the phase 1/2 LANTERNWAY study of 9
+patients, ejection fraction improved by at least 6 points in 5 of 9 at six months, which he
+described as "most patients", with no safety events "of note". 7 Two further programmes,
+BEACONFIELD and WAYFARER, appeared on the slide without their indications. He stated
+that the company has raised "about $180 million" and operates its own central testing
+laboratory.
+
+Discussion
+The panel, chaired by Professor Mette Kristiansen and Professor Alessandro Conti, added
+Yusuf Demir of Castlebay Therapeutics and Professor Robert Ashcroft. Demir stated that in
+Castlebay's phase 1/2 study of CBY-01 for PRKAG2 syndrome "about two-thirds" of
+patients showed what he termed approvable levels of improvement in exercise capacity
+against almost none in the control group, without figures, and that a phase 3 study would
+start early next year. 8 Ashcroft stated that Harrowgate Therapeutics, which was not
+presenting, had announced two weeks earlier that its gene therapy for Fabry
+cardiomyopathy met its primary endpoint, and that he very much hopes for formal approval
+early next year, first in the US and then in Europe. Nothing is approved. He added that the
+first patient in that programme was treated in 2017 and that over 200 patients are in a
+natural history study, both spoken only.
+Whitlock offered an anecdote in support of the safety of reducing the target protein: two
+siblings with no functional protein at all, which in his view makes an 80% reduction safe.
+Nakamura said that "about 10" interventional trials are running in hypertrophic
+5 The slide gives 90.6%.
+6 The slide gives 208 patients and a gradient reduction of 46.5 mmHg.
+7 The registry record lists the study as phase 1, in adults aged 18 to 70; the speaker said "phase 1/2, all ages".
+
+Sample report. All organisations, people, products and data are fictional.
+
+20
+
+Inherited and rare cardiomyopathies
+
+cardiomyopathy; whether ORCHARD-HCM itself is complete or ongoing was left unclear, the
+slide saying "ongoing". The panel agreed that peak oxygen uptake is becoming the pivotal
+endpoint across the field, and that many patients with advanced disease cannot perform
+the test: only 2 of the 9 patients in LANTERNWAY completed it.
+
+Guest speaker: Mateus Oliveira
+Mateus Oliveira, 27, from Portugal, who has Danon disease, joined by video link, introduced
+by Dr Henrik Solberg. He said that at 19 he was told he would need a transplant, and that
+about three years ago he received a gene therapy; he did not name the product or the
+company, and the report does not. He described the change in his own terms: he can climb
+the stairs at university "without stopping on the landing", and "it's the small things". He said
+he hopes the treatment "has bought me 10 to 15 years" and that he does not know "if it's
+forever". 9 He gave no clinical measurements, and none are added here.
+
+8 The company's published guidance, found on review, was the second half of 2026; no phase 3 study was registered on 2 November 2026.
+9 The "10 to 15 years" is his expectation, not time already gained. One phrase, "I was stunned", was corrected on review of the recording from a
+mishearing.
+
+Sample report. All organisations, people, products and data are fictional.
+
+21
+
+Method and verification
+
+Method and verification
+This appendix describes how a report of this kind is prepared from the recordings
+of a meeting and the checks that are applied at each stage. The figures given are
+those of the sample.
+Sources
+The source material is the video recording of each session, amounting in this sample to
+approximately four and a half hours. The official programme published by the society is used to
+confirm the names and affiliations of moderators, speakers and panel members. Public sources
+consulted to verify statements are identified in the footnotes in which they are used.
+
+Transcription and review
+The audio of each recording is transcribed by speech recognition software. Each transcript is
+then compared with the video. Speakers are identified from the captions shown on screen, and
+the text of every slide is read from the recording so that names, product and trial designations,
+and figures can be checked against what was displayed. Passages that remain uncertain are
+extracted as short clips and reviewed by a member of the project team, who listens to each and
+determines the reading. The outcome of every such review is recorded. In this sample, 67 clips
+were reviewed.
+
+Extraction of facts
+Each transcript is divided into its individual talks and discussions, forty in this sample. Each is
+read separately, in isolation from the others, so that statements made by one speaker cannot
+be attributed to another. From each, the individual facts are recorded: the products and
+mechanisms described, the trials and results reported, the dates given, the regulatory and
+commercial statements made, and the opinions and challenges voiced. Each fact is recorded
+with the name of the speaker, the time in the recording and the exact words on which it rests. In
+this sample this produced a base of 1,641 facts.
+Two automated checks are applied. The first confirms that the words quoted in support of each
+fact appear verbatim in the transcript. The second confirms that every paragraph of every
+transcript has either given rise to at least one fact or been recorded as containing nothing
+reportable, so that no part of the meeting is omitted without a decision.
+
+Analysis and drafting
+The session records and the thematic analyses are written from the base of facts and not from
+the transcripts. Every statement in the working papers carries a reference to the facts on which
+it rests. An automated check confirms, for every line, that the facts cited exist, that every figure
+in the line appears in those facts in the same form, that anything still unresolved is described as
+such, and that anything read from a slide and not spoken is identified as coming from a slide. A
+subject is described as having been raised in several sessions only where three or more
+separate talks support it.
+
+Sample report. All organisations, people, products and data are fictional.
+
+22
+
+Method and verification
+
+The chapters of the report are then written from those working papers under the same check.
+The references to individual facts are retained in the working files and are omitted from the
+printed text for readability.
+
+Verification against public sources
+After drafting, every statement that can be tested against a public primary source is tested. The
+sources used are, in order of preference, the regulator concerned, the trial registry, the
+company's own announcement or regulatory filing, and the peer-reviewed publication. Each
+check is limited to sources retrieved on a stated date, and none relies on recollection.
+In this sample, 231 checks were made, covering 361 individual statements. Of these, 108 were
+confirmed, 74 were confirmed in part, 11 differed from the public source and 38 could not be
+found in any public source. A further 149 statements were opinions, forecasts or unpublished
+data, for which no public source can exist. Every difference, and every partial confirmation of
+importance, is recorded in a footnote that names the source and its date.
+The studies named by speakers are matched to their entries on a trial registry and listed in the
+following appendix. A study is matched only where the sponsor or product on the registry
+corresponds to the company that named it.
+Announcements made after the meeting are not blended into the account of what was
+presented. They are set out separately in the chapter on developments since the meeting.
+
+Limitations
+The report records what was said and shown at the meeting. Verification against public sources
+establishes whether a statement agrees with what has been published; it does not establish
+that the published information is itself correct, and it cannot reach data that a company has not
+made public.
+A number of spoken figures do not appear on any slide and could not be checked against a
+second source. They are reported as the speaker's statement. In panel discussions the
+recording does not always show who is speaking; speakers are identified from the picture and
+from the manner in which they are addressed, and a small number of brief interjections cannot
+be attributed.
+Passages that remain unintelligible after review are omitted. The automated checks confirm
+that the report is faithful to the base of facts. They do not determine which findings are the
+most important, which is a matter of editorial judgement.
+
+Sample report. All organisations, people, products and data are fictional.
+
+23
+
+Trials referred to at the meeting
+
+Trials referred to at the meeting
+The studies named by speakers, matched to their entries on a trial registry. A
+study is listed only where the sponsor or product on the registry matches the
+company that named it. Phase and status are as recorded on the registry on 2
+November 2026 and may differ from the description given at the meeting; where
+they differ materially, the relevant chapter carries a footnote. The registry
+identifiers in this sample are illustrative.
+Study
+
+Sponsor on the registry
+
+Registry identifier
+
+Phase
+
+Status
+
+FALCONER
+
+Arden Therapeutics
+
+TR-2026-0501
+
+Phase 3
+
+Not yet recruiting
+
+WINTERGREEN
+
+Arden Therapeutics
+
+TR-2024-0452
+
+Phase 2
+
+Active, not recruiting
+
+Calderon natural history
+
+Calderon Therapeutics
+
+TR-2022-0033
+
+Not applicable
+
+Completed
+
+CALLISTO-HCM
+
+Calderon Therapeutics
+
+TR-2024-0077
+
+Phase 1/2
+
+Active, not recruiting
+
+Castlebay CBY-01 phase 1/2
+
+Castlebay Therapeutics
+
+TR-2024-0251
+
+Phase 1/2
+
+Active, not recruiting
+
+CorvaneOne first-in-human
+
+Corvane Systems
+
+TR-2025-0260
+
+Not applicable
+
+Completed
+
+EBW-100 phase 1/2
+
+Ebbwater Genetics
+
+TR-2023-0344
+
+Phase 1/2
+
+Active, not recruiting
+
+LODESTAR-2
+
+Fenwick Bio
+
+TR-2024-0301
+
+Phase 3
+
+Active, not recruiting
+
+OSPREY-ACS
+
+Halden Pharmaceuticals
+
+TR-2024-0199
+
+Phase 3
+
+Active, not recruiting
+
+OSPREY-AF
+
+Halden Pharmaceuticals
+
+TR-2023-0120
+
+Phase 3
+
+Completed
+
+Harrowgate Fabry pivotal
+
+Harrowgate Therapeutics
+
+TR-2022-0140
+
+Phase 2/3
+
+Active, not recruiting
+
+ORCHARD-1
+
+Kessler Pharma
+
+TR-2023-0290
+
+Phase 2
+
+Completed
+
+ORCHARD-HCM
+
+Kessler Pharma
+
+TR-2024-0166
+
+Phase 3
+
+Active, not recruiting
+
+Kestrel PF-1 first-in-human
+
+Kestrel Electro
+
+TR-2025-0102
+
+Not applicable
+
+Completed
+
+Lumen Therapy European trial
+
+Lumen Therapy
+
+TR-2026-0330
+
+Not applicable
+
+Recruiting
+
+GRANITE-1
+
+Marlowe Pharma
+
+TR-2026-0209
+
+Phase 3
+
+Recruiting
+
+GRANITE-2
+
+Marlowe Pharma
+
+TR-2026-0210
+
+Phase 3
+
+Recruiting
+
+GRANITE-3
+
+Marlowe Pharma
+
+TR-2026-0211
+
+Phase 3
+
+Not yet recruiting
+
+LANTANA
+
+Marlowe Pharma
+
+TR-2024-0388
+
+Phase 2b
+
+Completed
+
+OAKMOOR
+
+Marlowe Pharma
+
+TR-2026-0147
+
+Phase 2
+
+Recruiting
+
+SORREL
+
+Marlowe Pharma
+
+TR-2026-0318
+
+Phase 3
+
+Recruiting
+
+THISTLE
+
+Marlowe Pharma
+
+TR-2026-0319
+
+Phase 3
+
+Recruiting
+
+PulsePoint registry
+
+Northgate Sensing
+
+TR-2025-0187
+
+Not applicable
+
+Recruiting
+
+Sample report. All organisations, people, products and data are fictional.
+
+24
+
+Trials referred to at the meeting
+
+Study
+
+Sponsor on the registry
+
+Registry identifier
+
+Phase
+
+Status
+
+STRIDE-HF
+
+Northwind Bioelectric
+
+TR-2022-0219
+
+Not applicable
+
+Completed
+
+STRIDE-HF2
+
+Northwind Bioelectric
+
+TR-2026-0088
+
+Not applicable
+
+Recruiting
+
+LANTERNWAY
+
+Oriel Cardiogenetics
+
+TR-2025-0058
+
+Phase 1
+
+Recruiting
+
+DUET
+
+Orrinvale Medical
+
+TR-2023-0405
+
+Not applicable
+
+Completed
+
+HARBOURLIGHT
+
+Ravensworth Medical
+
+TR-2023-0096
+
+Not applicable
+
+Completed
+
+HARBOURLIGHT-US
+
+Ravensworth Medical
+
+TR-2025-0233
+
+Not applicable
+
+Active, not recruiting
+
+KINGFISHER
+
+Serrat Biosciences
+
+TR-2026-0412
+
+Phase 2
+
+Recruiting
+
+TIDEWATER
+
+Tessaro Cardio
+
+TR-2023-0071
+
+Not applicable
+
+Active, not recruiting
+
+BIRCHWOOD
+
+Vantrel Bio
+
+TR-2024-0113
+
+Phase 2
+
+Completed
+
+SILVERBIRCH-1
+
+Vantrel Bio
+
+TR-2025-0271
+
+Phase 3
+
+Active, not recruiting
+
+Named at the meeting and not matched
+• ROWAN and BRACKEN (Marlowe Pharma). The registry carries the two further Tiravesta
+phase 3 studies without their names, so they are not matched by name.
+• Tollan Therapeutics, Mireille Medical and Saltmarsh Devices. No clinical study is
+registered; all three companies presented preclinical work only.
+• Castlebay Therapeutics phase 3. The study described by Yusuf Demir as due to start had
+not been registered on 2 November 2026.
+• Lumen Therapy pilot study. Not found on a public register.
+
+Sample report. All organisations, people, products and data are fictional.
+
+25
+
+

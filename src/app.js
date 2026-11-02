@@ -67,7 +67,7 @@ function idx(page, where, text, pg){ if (text) INDEX.push({page, where:String(wh
 })();
 
 /* ---------- chrome: nav state, menu, credits, search ---------- */
-const HERE = (location.pathname.split('/').pop() || 'index.html').replace(/[?#].*$/,'');
+const HERE = (function(p){ p = (p || 'index.html').replace(/[?#].*$/,''); return /\.html$/.test(p) ? p : p + '.html'; })(location.pathname.split('/').pop());
 document.querySelectorAll('.nav a, .menu a').forEach(a => { if ((a.getAttribute('href')||'').split('#')[0] === HERE) a.setAttribute('aria-current','page'); });
 { const m = $('#menu'); if (m){ $('#menu-open').onclick = () => m.classList.add('on'); $('#menu-close').onclick = () => m.classList.remove('on'); } }
 document.querySelectorAll('[data-credit]').forEach(el => { const p = PHOTOS[el.dataset.credit]; if (!p) return; el.innerHTML = 'Photo: <a href="'+esc(p.profile)+'" target="_blank" rel="noopener">'+esc(p.photographer)+'</a> on <a href="'+esc(p.page)+'" target="_blank" rel="noopener">Unsplash</a>'; });
