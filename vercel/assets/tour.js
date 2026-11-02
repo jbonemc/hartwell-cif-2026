@@ -45,8 +45,11 @@ const SITE = [
       'Every value on a chart is checked against the report text when the site is built.',
       'If a number cannot be found word for word in the PDF, the site refuses to build.'] },
   { page:'dates.html', sel:'#dates-list', title:'Dates to watch', body:[
-      'Every date a speaker gave for a result, a filing or a launch, gathered into one calendar and filterable by company.',
-      'Each is given exactly as it was stated, from “late next year” to a named quarter.'] },
+      'Every date a speaker gave for a result, a filing or a launch, gathered in one place and filterable by company.',
+      'Each is given exactly as it was stated, from “next year” to a named quarter.'] },
+  { page:'dates.html', sel:'#cal-box', title:'Straight into your calendar', body:[
+      'Tick the dates you care about and download one calendar file, with a reminder a week before each.',
+      'It opens in Outlook, Apple Calendar and Google Calendar.'] },
   { page:'trials.html', sel:'#trials-table', title:'Every trial mentioned', body:[
       'A searchable register of the trials referred to at the meeting, with the sponsor and where each was discussed.'] },
   { page:'trials.html', sel:'.site-head [data-search-open]', title:'Search everything', body:[

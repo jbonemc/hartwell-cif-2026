@@ -514,6 +514,21 @@ footer .cols a{color:var(--band-fg)}
 }
 @media print{.site-head,.overlay{display:none}}
 
+
+/* ---- dates: calendar widget ---- */
+.cal-box{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:end;margin:18px 0 26px;padding:16px 18px;background:var(--bg-2);border-left:3px solid var(--red);border-radius:4px}
+.cal-box .k{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--red-ink);margin-bottom:6px}
+.cal-box .cal-txt{font-size:.9rem;line-height:1.5;color:var(--fg-2);max-width:62ch}
+.cal-box .cal-note{font-size:.78rem;line-height:1.45;color:var(--muted);margin-top:6px;max-width:62ch}
+.cal-acts{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.cal-acts .btn[disabled]{opacity:.45;cursor:not-allowed}
+.cal-cell{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:6px}
+.cal-pick{display:inline-flex;align-items:center;gap:6px;font-size:.76rem;color:var(--muted);font-family:var(--mono);cursor:pointer}
+.cal-pick input{width:15px;height:15px;accent-color:var(--red);margin:0}
+.cal-one{font-size:.74rem;font-weight:600;color:var(--red-ink);border:1px solid var(--line-2);border-radius:4px;padding:2px 7px;line-height:1.4}
+.cal-one:hover{border-color:var(--red);background:var(--bg)}
+.cal-none{font-size:.74rem;color:var(--muted-2)}
+@media (max-width:719px){.cal-box{grid-template-columns:1fr}.cal-acts{justify-content:flex-start}}
 /* ---- guided tours ---- */
 .tour-mask{position:fixed;inset:0;z-index:1000;background:transparent}
 .tour-hole{position:fixed;z-index:1001;border-radius:8px;pointer-events:none;box-shadow:0 0 0 2px var(--red),0 0 0 9999px rgba(15,26,41,.58);transition:top .25s ease,left .25s ease,width .25s ease,height .25s ease}

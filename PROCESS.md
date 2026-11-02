@@ -307,6 +307,17 @@ reviewer and then as administrator, and restores whatever sign-in they had when 
 page from the address and so failed to highlight the navigation and to show approved edits there.
 All three now normalise the page name.
 
+**Calendar on "Dates to watch".** Each date that can be placed on a calendar has a tick box and a
+one-click "+ Add". A panel above the list downloads a single calendar file (.ics) for everything
+ticked. It opens in Outlook, Apple Calendar and Google Calendar, and every entry carries a reminder
+one week before. Only three entries in the report give an exact day, and two of those have passed.
+The rest are given as a month, quarter, half-year or year, so the rule, agreed with the client for
+the demo, is: the first day of the stated period; "End of" a year on 1 December; "next year" and
+"early next year" as 1 January 2027, since the report is dated November 2026. Entries with no date
+("not stated", "already enrolled") and dates already passed are not offered. Each calendar entry
+keeps the wording as stated, explains how its day was chosen, cites the report page, and says the
+data is sample data.
+
 The PDF text used by the build's chart check is now kept in the repository as `src/report-text.txt`,
 so the build runs from the repository alone: `python3 src/build.py data src/report-text.txt`.
 

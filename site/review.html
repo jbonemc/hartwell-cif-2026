@@ -518,6 +518,21 @@ footer .cols a{color:var(--band-fg)}
 }
 @media print{.site-head,.overlay{display:none}}
 
+
+/* ---- dates: calendar widget ---- */
+.cal-box{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:end;margin:18px 0 26px;padding:16px 18px;background:var(--bg-2);border-left:3px solid var(--red);border-radius:4px}
+.cal-box .k{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--red-ink);margin-bottom:6px}
+.cal-box .cal-txt{font-size:.9rem;line-height:1.5;color:var(--fg-2);max-width:62ch}
+.cal-box .cal-note{font-size:.78rem;line-height:1.45;color:var(--muted);margin-top:6px;max-width:62ch}
+.cal-acts{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.cal-acts .btn[disabled]{opacity:.45;cursor:not-allowed}
+.cal-cell{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:6px}
+.cal-pick{display:inline-flex;align-items:center;gap:6px;font-size:.76rem;color:var(--muted);font-family:var(--mono);cursor:pointer}
+.cal-pick input{width:15px;height:15px;accent-color:var(--red);margin:0}
+.cal-one{font-size:.74rem;font-weight:600;color:var(--red-ink);border:1px solid var(--line-2);border-radius:4px;padding:2px 7px;line-height:1.4}
+.cal-one:hover{border-color:var(--red);background:var(--bg)}
+.cal-none{font-size:.74rem;color:var(--muted-2)}
+@media (max-width:719px){.cal-box{grid-template-columns:1fr}.cal-acts{justify-content:flex-start}}
 /* ---- guided tours ---- */
 .tour-mask{position:fixed;inset:0;z-index:1000;background:transparent}
 .tour-hole{position:fixed;z-index:1001;border-radius:8px;pointer-events:none;box-shadow:0 0 0 2px var(--red),0 0 0 9999px rgba(15,26,41,.58);transition:top .25s ease,left .25s ease,width .25s ease,height .25s ease}
@@ -947,6 +962,66 @@ if ($('#dates-list')){
   function apply(){ const perGroup = new Map(); rows.forEach(({row,grp,cnt}) => { const show = company==='all'||row.dataset.company===company; row.classList.toggle('hidden', !show); const c = (perGroup.get(grp)||0)+(show?1:0); perGroup.set(grp,c); cnt.textContent = c+' of '+grp.querySelectorAll('.drow').length; grp.style.display = c? '':'none'; }); }
   $('#dates-company').append(h('select',{class:'pill', id:'dates-company-select', 'aria-label':'Filter by company', onchange:e=>{company=e.target.value;apply();}}, h('option',{value:'all'}, 'All companies'), ...companies.map(c => h('option',{value:c}, c))), h('span',{class:'count'}, 'The "Basis" column is the report\'s own: whether the date was spoken, on a slide, or both.'));
   apply(); fnFoot('dates', $('#dates-fns'));
+
+  /* ---- calendar: one .ics file with a reminder a week before each date ----
+     Where the report gives only a month, quarter, half or year, the entry goes on the first day of that period
+     ("End of" a year goes on 1 December). "Next year" is read against the report's own year, 2026.
+     Every entry keeps the wording as stated, and says how its calendar day was chosen. */
+  const REPORT_YEAR = 2026, MONTHS = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+  const MON = MONTHS.map(m => m[0].toUpperCase()+m.slice(1,3));
+  function calDate(when){
+    const w = String(when||'').replace(/["\u201c\u201d]/g,'').trim(), lw = w.toLowerCase(); let m;
+    if ((m = lw.match(/^(\d{1,2})(?:\s+and\s+(\d{1,2}))?\s+([a-z]+)\s+(\d{4})/)) && MONTHS.includes(m[3])) return { y:+m[4], mo:MONTHS.indexOf(m[3]), d:+m[1], days: m[2] ? (+m[2] - +m[1] + 1) : 1, exact:true };
+    if ((m = lw.match(/^([a-z]+)\s+(\d{4})$/)) && MONTHS.includes(m[1])) return { y:+m[2], mo:MONTHS.indexOf(m[1]), d:1, days:1, rule:'the first day of that month' };
+    if ((m = lw.match(/^end of (\d{4})$/))) return { y:+m[1], mo:11, d:1, days:1, rule:'1 December, the start of the year\u2019s final month' };
+    if ((m = lw.match(/^([1-4])q\s*(\d{4})$/))) return { y:+m[2], mo:(+m[1]-1)*3, d:1, days:1, rule:'the first day of that quarter' };
+    if ((m = lw.match(/^([12])h\s*(\d{4})$/))) return { y:+m[2], mo:m[1]==='1'?0:6, d:1, days:1, rule:'the first day of that half-year' };
+    if ((m = lw.match(/^(\d{4})$/))) return { y:+m[1], mo:0, d:1, days:1, rule:'the first day of that year' };
+    if (/next year/.test(lw)) return { y:REPORT_YEAR+1, mo:0, d:1, days:1, rule:'1 January '+(REPORT_YEAR+1)+' (the report is dated November '+REPORT_YEAR+')' };
+    return null;
+  }
+  const pad = n => String(n).padStart(2,'0');
+  const ymd = (y,mo,d) => { const t = new Date(Date.UTC(y,mo,d)); return t.getUTCFullYear()+pad(t.getUTCMonth()+1)+pad(t.getUTCDate()); };
+  const pretty = c => c.d+(c.days>1?'\u2013'+(c.d+c.days-1):'')+' '+MON[c.mo]+' '+c.y;
+  const icsText = s => String(s).replace(/\\/g,'\\\\').replace(/;/g,'\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n');
+  const fold = line => { const out = []; let cur = '', bytes = 0; for (const ch of line){ const b = new TextEncoder().encode(ch).length; if (bytes + b > 73){ out.push(cur); cur = ' '; bytes = 1; } cur += ch; bytes += b; } out.push(cur); return out.join('\r\n'); };
+  const stamp = new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d+Z$/,'Z');
+  const today = new Date(); const todayKey = today.getFullYear()+pad(today.getMonth()+1)+pad(today.getDate());
+  function vevent(e){
+    const c = e._cal, start = ymd(c.y,c.mo,c.d), end = ymd(c.y,c.mo,c.d+c.days);
+    const title = e.event + ' \u2013 ' + e.company + (c.exact ? '' : ' (expected ' + String(e.when_as_stated).replace(/["\u201c\u201d]/g,'') + ')');
+    const desc = [ 'Dates to watch, ' + D.meta.report.title + '.',
+      'Stated at the meeting as: ' + String(e.when_as_stated).replace(/["\u201c\u201d]/g,'') + '.',
+      c.exact ? 'This is the date given in the report.' : 'The report gives no exact day, so this entry is placed on ' + c.rule + '.',
+      'Source: report page ' + e.source_page + '.',
+      'Sample data: all organisations, products and events are fictional.' ].join('\n');
+    const uid = (e.company+'-'+e.event+'-'+start).toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,90) + '@hartwell-cif-2026';
+    return ['BEGIN:VEVENT','UID:'+uid,'DTSTAMP:'+stamp,'DTSTART;VALUE=DATE:'+start,'DTEND;VALUE=DATE:'+end,'SUMMARY:'+icsText(title),'DESCRIPTION:'+icsText(desc),
+      'URL:'+location.href.split('#')[0],'TRANSP:TRANSPARENT','BEGIN:VALARM','ACTION:DISPLAY','DESCRIPTION:'+icsText('In one week: '+title),'TRIGGER:-P7D','END:VALARM','END:VEVENT'];
+  }
+  function download(list, name){
+    const lines = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Hartwell Society//Dates to watch//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:'+icsText(D.meta.report.title+': dates to watch'), ...list.flatMap(vevent), 'END:VCALENDAR'];
+    const blob = new Blob([lines.map(fold).join('\r\n')+'\r\n'], { type:'text/calendar;charset=utf-8' });
+    const a = h('a',{ href:URL.createObjectURL(blob), download:name }); document.body.append(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500);
+  }
+  const picks = new Set(); const eligible = [];
+  allEntries.forEach((e, i) => { e._cal = calDate(e.when_as_stated); e._past = e._cal ? ymd(e._cal.y,e._cal.mo,e._cal.d+e._cal.days-1) < todayKey : false; });
+  rows.forEach(({row}, i) => { const e = allEntries[i]; const cell = row.firstElementChild; const box = h('div',{class:'cal-cell'});
+    if (e._cal && !e._past){ eligible.push({e, row});
+      const cb = h('input',{type:'checkbox', 'aria-label':'Add '+e.event+' to the calendar file', onchange:()=>{ cb.checked ? picks.add(e) : picks.delete(e); sync(); }}); e._cb = cb;
+      box.append(h('label',{class:'cal-pick'}, cb, h('span',{}, e._cal.exact ? pretty(e._cal) : 'From '+pretty(e._cal))), h('button',{class:'cal-one', title:'Download a calendar entry for this date', onclick:()=>download([e], (e.company+'-'+e.event).toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60)+'.ics')}, '+ Add'));
+    } else box.append(h('span',{class:'cal-none'}, e._past ? 'Date has passed' : 'No date to add'));
+    cell.append(box); });
+  const dl = h('button',{class:'btn btn-red', disabled:true, onclick:()=>download([...picks], 'hartwell-dates-to-watch.ics')}, 'Download calendar file');
+  const all = h('button',{class:'btn btn-line', onclick:()=>{ const vis = eligible.filter(x => !x.row.classList.contains('hidden')); const every = vis.every(x => picks.has(x.e)); vis.forEach(x => { x.e._cb.checked = !every; every ? picks.delete(x.e) : picks.add(x.e); }); sync(); }}, 'Select all upcoming');
+  function sync(){ dl.disabled = !picks.size; dl.textContent = picks.size ? 'Download calendar file ('+picks.size+(picks.size===1?' date':' dates')+')' : 'Download calendar file'; const vis = eligible.filter(x => !x.row.classList.contains('hidden')); all.textContent = vis.length && vis.every(x => picks.has(x.e)) ? 'Clear selection' : 'Select all upcoming'; }
+  const calBox = h('div',{class:'cal-box', id:'cal-box'},
+    h('div',{}, h('div',{class:'k'}, 'Add to your calendar'), h('div',{class:'cal-txt'}, 'Tick the dates you want to follow, then download one calendar file. It works with Outlook, Apple Calendar and Google Calendar, and each entry comes with a reminder one week before.'),
+      h('div',{class:'cal-note'}, 'Where the report gives only a month, quarter or year, the entry goes on the first day of that period and keeps the wording as stated. \u201cNext year\u201d is read as '+(REPORT_YEAR+1)+'.')),
+    h('div',{class:'cal-acts'}, all, dl));
+  $('#dates-company').after(calBox);
+  $('#dates-company-select').addEventListener('change', sync);
+  sync();
 }
 
 /* ---------- Developments ---------- */
@@ -1156,8 +1231,11 @@ const SITE = [
       'Every value on a chart is checked against the report text when the site is built.',
       'If a number cannot be found word for word in the PDF, the site refuses to build.'] },
   { page:'dates.html', sel:'#dates-list', title:'Dates to watch', body:[
-      'Every date a speaker gave for a result, a filing or a launch, gathered into one calendar and filterable by company.',
-      'Each is given exactly as it was stated, from “late next year” to a named quarter.'] },
+      'Every date a speaker gave for a result, a filing or a launch, gathered in one place and filterable by company.',
+      'Each is given exactly as it was stated, from “next year” to a named quarter.'] },
+  { page:'dates.html', sel:'#cal-box', title:'Straight into your calendar', body:[
+      'Tick the dates you care about and download one calendar file, with a reminder a week before each.',
+      'It opens in Outlook, Apple Calendar and Google Calendar.'] },
   { page:'trials.html', sel:'#trials-table', title:'Every trial mentioned', body:[
       'A searchable register of the trials referred to at the meeting, with the sponsor and where each was discussed.'] },
   { page:'trials.html', sel:'.site-head [data-search-open]', title:'Search everything', body:[
