@@ -25,12 +25,14 @@ window.CARDIO_SERIES = [
 ];
 window.PIPELINE = [
   { title:'Sources', text:'Video recording of each session, with the published programme used to confirm names and affiliations.', value:'4½ h', value_label:'approximately four and a half hours of recording', check:['approximately four and a half hours'] },
-  { title:'Transcription and review', text:'Speech recognition, then each transcript compared with the video; uncertain passages reviewed as short clips by a person.', value:'67', value_label:'clips reviewed', check:['67 clips'] },
+  { title:'Transcription and review', text:'Speech recognition, then each transcript compared with the video; uncertain passages checked by human reviewers, as short clips sent to the session chairs or speakers.', value:'67', value_label:'clips reviewed', check:['67 clips'] },
   { title:'Extraction of facts', text:'Each talk read in isolation; every fact recorded with speaker, time in the recording and exact words. Two automated checks.', value:'1,641', value_label:'facts from 40 talks and discussions', check:['1,641 facts','forty in this sample'] },
   { title:'Analysis and drafting', text:'Session records and thematic analyses written from the base of facts, not the transcripts, under an automated line-by-line check.', value:null, check:['written from the base of facts and not from'] },
-  { title:'Verification against public sources', text:'Every statement that can be tested against a public primary source is tested, on a stated date.', value:'231', value_label:'checks covering 361 statements', check:['231 checks were made, covering 361 individual statements'] },
+  { title:'Verification against public sources', addon:true, text:'Every statement that can be tested against a public primary source is tested, on a stated date.', value:'231', value_label:'checks covering 361 statements', check:['231 checks were made, covering 361 individual statements'] },
   { title:'Limitations', text:'Verification establishes agreement with what has been published, not that the published information is itself correct.', value:null, check:['it does not establish'] },
 ];
+window.ADDON_NOTE = 'Optional add-on. This sample includes it to show what it adds; the standard report records what was said and shown, and its method appendix states plainly whether this check was done.';
+window.DEV_ADDON_NOTE = 'Part of the optional verification add-on.';
 window.VERIFICATION = {
   checks:231,
   sub:'Of the 231 checks made against public primary sources, covering 361 individual statements, the appendix gives this breakdown.',

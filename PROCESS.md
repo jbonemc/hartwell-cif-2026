@@ -321,6 +321,28 @@ data is sample data.
 The PDF text used by the build's chart check is now kept in the repository as `src/report-text.txt`,
 so the build runs from the repository alone: `python3 src/build.py data src/report-text.txt`.
 
+## 12b. Iteration 7: wording matched to the service as sold
+
+The service was revised: checking statements against public sources (trial registries, regulators,
+company announcements) is now an optional add-on, and transcript ambiguities are checked by sending
+short clips to the client's session chairs or speakers rather than by our own team. The demo had
+presented both the old way.
+
+- **Tour.** The welcome now says the microsite is built alongside a report of proceedings, and that
+  this sample includes the optional public-source verification. "Verified report" became "report".
+  The method step says clips go to the session chair or speaker, and that the automated check
+  confirms every figure in the analysis appears in the facts it cites. The final step names the
+  editorial contact and says speakers and sponsors can be sent their sections.
+- **Method page.** The transcription card and paragraph now say clips are sent to the session chair
+  or speaker. The verification card and section carry a note at the top marking them as an optional
+  add-on included in this sample to show what it adds. The report's verification text is unchanged.
+- **Developments since the meeting.** A line at the top marks the chapter as part of the add-on.
+
+**Known difference.** The sample PDF's method appendix (page 22) still says clips were reviewed by a
+member of the project team, and presents public-source verification without the add-on note. The
+client asked for the PDF to be left for now. Until it is updated, the method page and the PDF differ
+on these two points, and `src/report-text.txt` still holds the PDF's original wording.
+
 ## 13. Deliverables
 
 | File | What it is |

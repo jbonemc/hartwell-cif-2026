@@ -321,7 +321,7 @@ if ($('#dates-list')){
 
 /* ---------- Developments ---------- */
 if ($('#developments-list')){
-  const DV = D.developments; $('#developments-lead').textContent = DV.intro_verbatim;
+  const DV = D.developments; $('#developments-lead').textContent = DV.intro_verbatim; if (window.DEV_ADDON_NOTE) $('#developments-lead').before(h('p',{class:'addon-note'}, window.DEV_ADDON_NOTE));
   DV.sections.forEach(sec => { const box = h('div',{}, h('h3',{style:'font-size:1rem;margin-bottom:12px'}, sec.heading)); const grid = h('div',{class:'grid-2'}); sec.items.forEach((it, ii) => grid.append(h('div',{class:'dev'}, h('div',{class:'k'}, [it.company, it.date_mentioned].filter(Boolean).join(' · ')), h('h4',{}, it.label), h('p',{'data-anchor':'developments:'+String(it.label||it.company||ii).replace(/\W+/g,'-').toLowerCase(), 'data-anchor-text':it.text_verbatim}, it.text_verbatim, ' ', h('span',{class:'cite'}, String(it.source_page||17)))))); box.append(grid); $('#developments-list').append(box); });
 }
 
@@ -362,8 +362,8 @@ if ($('#trials-table')){
 /* ---------- Method ---------- */
 if ($('#pipe')){
   const M = D.method; $('#method-lead').textContent = M.intro_verbatim;
-  M.sections.forEach((sec, i) => { const box = i < Math.ceil(M.sections.length/2) ? $('#method-prose-a') : $('#method-prose-b'); box.append(h('h3',{}, sec.heading)); (sec.paragraphs||[]).forEach(p => box.append(h('p',{}, ptext(p)))); box.append(h('span',{class:'cite'}, String(sec.source_page||22))); });
-  window.PIPELINE.forEach(st => $('#pipe').append(h('div',{class:'step'}, h('h4',{}, st.title), h('p',{}, st.text), st.value? h('div',{class:'v num'}, st.value, h('small',{}, st.value_label)) : null)));
+  M.sections.forEach((sec, i) => { const box = i < Math.ceil(M.sections.length/2) ? $('#method-prose-a') : $('#method-prose-b'); box.append(h('h3',{}, sec.heading)); if (/public sources/i.test(sec.heading) && window.ADDON_NOTE) box.append(h('p',{class:'addon-note'}, window.ADDON_NOTE)); (sec.paragraphs||[]).forEach(p => box.append(h('p',{}, ptext(p)))); box.append(h('span',{class:'cite'}, String(sec.source_page||22))); });
+  window.PIPELINE.forEach(st => $('#pipe').append(h('div',{class:'step'+(st.addon?' addon':'')}, st.addon && window.ADDON_NOTE ? h('p',{class:'addon-note'}, window.ADDON_NOTE) : null, h('h4',{}, st.title), h('p',{}, st.text), st.value? h('div',{class:'v num'}, st.value, h('small',{}, st.value_label)) : null)));
   const V = window.VERIFICATION; const host = $('#verif-chart');
   host.append(h('h3',{}, 'What the '+V.checks+' checks against public sources found'), h('p',{class:'sub'}, V.sub));
   const seg = h('div',{class:'seg'}); const leg = h('div',{class:'seg-legend'}); V.parts.forEach(p => { seg.append(h('div',{style:'flex:'+p.n+';background:'+p.color, title:p.label+': '+p.n}, h('span',{}, p.n))); leg.append(h('span',{}, h('i',{style:'background:'+p.color}), p.label+' ('+p.n+')')); });

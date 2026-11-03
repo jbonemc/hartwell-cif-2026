@@ -15,11 +15,11 @@ const click = sel => { const el = document.querySelector(sel); if (el) el.click(
 /* ---------- the two tours ---------- */
 const SITE = [
   { page:'index.html', title:'Welcome', body:[
-      'This is a demonstration of the microsites we build from the recordings of a scientific meeting, once every session has been transcribed, checked against the video and verified into a full report of proceedings.',
-      'The meeting, society, speakers, companies, products and figures shown here are all sample data. The format and the method are exactly what we would apply to your own congress.',
+      'This is a demonstration of the microsites we build alongside a report of proceedings, from the recordings of a scientific meeting, once every session has been transcribed and checked against the video and slides.',
+      'The meeting, society, speakers, companies, products and figures shown here are all sample data. The format and the method are exactly what we would apply to your own congress. This sample also includes our optional verification against public sources, which is not part of the standard report.',
       'The tour takes about two minutes.'] },
   { page:'index.html', sel:'.phero .inner', title:'Every line traceable', body:[
-      'Every passage, figure and footnote on this site comes from the verified report, and each one carries the page it came from.',
+      'Every passage, figure and footnote on this site comes from the report, and each one carries the page it came from.',
       'Nothing is written for the site that the report does not say.'] },
   { page:'index.html', sel:'.site-head .brand', title:'Your identity, not ours', body:[
       'The typeface, colours, logo and photography are all interchangeable.',
@@ -57,10 +57,10 @@ const SITE = [
   { page:'method.html', sel:'#method-lead', title:'How the record is made', body:[
       'This is the painstaking part. Each recording is transcribed and then checked against the video.',
       'Speakers are identified from the on-screen captions, and the text of every slide is read from the footage, so names and figures are checked against what was shown.',
-      'Wherever the audio is unclear, a person listens to the clip and decides. Each talk is then read on its own, so one speaker’s words cannot drift into another’s.',
-      'Every statement is traced to a speaker, a time in the recording and the exact words, and an automated check confirms that every figure matches.'] },
+      'Human reviewers check any transcript ambiguity: a short clip goes to the session chair or speaker to confirm, and most take about ten seconds. Each talk is then read on its own, so one speaker’s words cannot drift into another’s.',
+      'Every statement is traced to a speaker, a time in the recording and the exact words, and an automated check confirms that every figure in the analysis appears in the facts it cites.'] },
   { page:'method.html', sel:'.rv-fab', title:'Checked by the people who spoke', body:[
-      'Before anything is published, speakers and organisers can review their own sections, comment, and propose edits for an administrator to approve.',
+      'Before anything is published, your editorial contact reads the draft, and speakers and sponsors can be sent their own sections to comment on and propose edits for an administrator to approve.',
       'Everything you have seen is sample data, and the look is fully interchangeable.'],
     buttons:[['See the review process', () => start('review')], ['Finish', () => end()]] }
 ];
