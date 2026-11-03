@@ -338,10 +338,15 @@ presented both the old way.
   add-on included in this sample to show what it adds. The report's verification text is unchanged.
 - **Developments since the meeting.** A line at the top marks the chapter as part of the add-on.
 
-**Known difference.** The sample PDF's method appendix (page 22) still says clips were reviewed by a
-member of the project team, and presents public-source verification without the add-on note. The
-client asked for the PDF to be left for now. Until it is updated, the method page and the PDF differ
-on these two points, and `src/report-text.txt` still holds the PDF's original wording.
+**Sample PDF.** The method appendix was then brought into line. On page 22 the transcription
+paragraph now says the clips are sent to the session chair or speaker, who confirms the reading. On
+page 23 the "Verification against public sources" section opens with the same add-on note as the
+site. The edit was made with `tools/edit-method-pdf.py` (PyMuPDF), using the IBM Plex Sans fonts the
+report already uses, whose measurements match the embedded ones to within half a point a line. The
+paragraph on page 22 keeps its line count. On page 23 the section text is re-set 43 points lower at
+its original line breaks, so selecting, copying and searching still work in reading order. The other
+23 pages are pixel-identical to before. `src/report-text.txt` was regenerated from the new PDF and
+the build's figure checks still pass.
 
 ## 13. Deliverables
 

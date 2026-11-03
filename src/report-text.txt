@@ -1114,8 +1114,8 @@ The audio of each recording is transcribed by speech recognition software. Each 
 then compared with the video. Speakers are identified from the captions shown on screen, and
 the text of every slide is read from the recording so that names, product and trial designations,
 and figures can be checked against what was displayed. Passages that remain uncertain are
-extracted as short clips and reviewed by a member of the project team, who listens to each and
-determines the reading. The outcome of every such review is recorded. In this sample, 67 clips
+extracted as short clips and sent to the session chair or speaker, who listens to each and
+confirms the reading. The outcome of every such review is recorded. In this sample, 67 clips
 were reviewed.
 
 Extraction of facts
@@ -1151,6 +1151,9 @@ The references to individual facts are retained in the working files and are omi
 printed text for readability.
 
 Verification against public sources
+Optional add-on. This sample includes it to show what it adds; the standard report records what
+was said and shown, and its method appendix states plainly whether this check was done.
+
 After drafting, every statement that can be tested against a public primary source is tested. The
 sources used are, in order of preference, the regulator concerned, the trial registry, the
 company's own announcement or regulatory filing, and the peer-reviewed publication. Each
